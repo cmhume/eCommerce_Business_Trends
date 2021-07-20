@@ -1,6 +1,18 @@
-# group_collab_test
+# Group Project
 
-Communication Protocol:
+
+## Presentation
+
+
+## Communication Protocol
+
+
 - Slack
-- Zoom meetings - Every Monday, Wednesday and Thrusday
--  
+- Zoom meetings - Every Monday, Wednesday and Thursday
+
+
+## Machine Learning
+
+
+## Data Base
+
