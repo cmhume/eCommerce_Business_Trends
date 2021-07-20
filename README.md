@@ -1,4 +1,3 @@
-
 # Group Project
 
 
@@ -6,9 +5,14 @@
 
 
 ## Communication Protocol
-slack every thursday
+
+
+- Slack
+- Zoom meetings - Every Monday, Wednesday and Thursday
+
 
 ## Machine Learning
 
 
 ## Data Base
+
