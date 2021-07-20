@@ -1,3 +1,4 @@
+
 # Group Project
 
 
@@ -5,10 +6,9 @@
 
 
 ## Communication Protocol
-
+slack every thursday
 
 ## Machine Learning
 
 
 ## Data Base
-
