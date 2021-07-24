@@ -7,16 +7,16 @@
 ### Group Members
 
 
-Elaine Ng
+Elaine Ng - Technology (link to branch or feature branch)
 
 
-Luz Maria Cabral
+Luz Maria Cabral - Database (link to branch or feature branch)
 
 
-Manupriya Sharma
+Manupriya Sharma - Machine Learning Model (link to branch or feature branch)
 
 
-Corinne Hume
+Corinne Hume - GitHub (link to branch or feature branch)
 
 
 ### Project Topic
@@ -73,7 +73,13 @@ link to data: https://www.kaggle.com/olistbr/brazilian-ecommerce
 ### Tensor Flow Diagram
 
 
-### Jupyter notebook with machine learning model that takes in Data from provisional Database
+screenshot of tensorflow diagram for machine learning model
+
+
+### Jupyter or Google Collab Notebook
+
+
+link and screenshot of Jupyter notebook with machine learning model that takes in Data from provisional Database
 
 
 ## Database
@@ -82,5 +88,10 @@ link to data: https://www.kaggle.com/olistbr/brazilian-ecommerce
 ### ERD
 
 
+link or screenshot of ERD
+
+
 ### Sample Database
 
+
+link to Sample Database or screenshot
