@@ -10,10 +10,10 @@
 Elaine Ng
 
 
-Luz 
+Luz Maria Cabral
 
 
-Manupriya
+Manupriya Sharma
 
 
 Corinne Hume
