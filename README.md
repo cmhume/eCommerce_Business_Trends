@@ -4,7 +4,40 @@
 ## Presentation
 
 
-## Communication Protocol
+### Group Members
+
+
+Elaine Ng
+
+
+Luz 
+
+
+Manupriya
+
+
+Corinne Hume
+
+
+### Project Topic
+
+
+* Topic
+
+
+* Why we selected our topic
+
+
+* Description of source data
+
+
+* Questions we hope to answer with our data
+
+
+link to data: https://www.kaggle.com/olistbr/brazilian-ecommerce
+
+
+### Communication Protocol
 
 
 * We will coordinate and communicate through Slack and Zoom. Our team will meet on Zoom every Monday, Wednesday and Thursday. 
@@ -37,5 +70,17 @@
 ## Machine Learning
 
 
-## Data Base
+### Tensor Flow Diagram
+
+
+### Jupyter notebook with machine learning model that takes in Data from provisional Database
+
+
+## Database
+
+
+### ERD
+
+
+### Sample Database
 
