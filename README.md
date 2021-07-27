@@ -7,16 +7,16 @@
 ### Group Members
 
 
-Elaine Ng - Technology, [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine) 
+Elaine Ng - Technology, Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine) 
 
 
-Luz Maria Cabral - Database, [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz)
+Luz Maria Cabral - Database, Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz)
 
 
-Manupriya Sharma - Machine Learning Model, [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Manupriya)
+Manupriya Sharma - Machine Learning Model, Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Manupriya)
 
 
-Corinne Hume - GitHub, [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk1)
+Corinne Hume - GitHub, Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Corinne), [readme_wk1](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk1)
 
 
 ### Project Topic
