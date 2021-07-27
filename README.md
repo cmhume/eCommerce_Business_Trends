@@ -7,22 +7,24 @@
 ### Group Members
 
 
-Elaine Ng - Technology (link to branch or feature branch)
+Elaine Ng - Technology, [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine) 
 
 
-Luz Maria Cabral - Database (link to branch or feature branch)
+Luz Maria Cabral - Database, [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz)
 
 
-Manupriya Sharma - Machine Learning Model (link to branch or feature branch)
+Manupriya Sharma - Machine Learning Model, [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Manupriya)
 
 
-Corinne Hume - GitHub (link to branch or feature branch)
+Corinne Hume - GitHub, [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk1)
 
 
 ### Project Topic
 
 
-* Topic
+In this project, we will analyze past customer data from the online retailer, Olist Store.
+
+* Topic 
 
 
 * Why we selected our topic
@@ -74,6 +76,9 @@ link to data: https://www.kaggle.com/olistbr/brazilian-ecommerce
 
 
 screenshot of tensorflow diagram for machine learning model
+
+
+Bar graph of machine learning models accuracy
 
 
 ### Jupyter or Google Collab Notebook
