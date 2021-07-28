@@ -22,7 +22,7 @@ Corinne Hume - GitHub, Branches: [Repo Branch](https://github.com/cmhume/eCommer
 ### Project Topic
 
 
-In this project, we will analyze past customer data from the online retailer, Olist Store.
+In this project, we will analyze past customer data from an online retailer to predict consumer behavior by geographic region.    
 
 * Topic 
 
@@ -90,10 +90,13 @@ link and screenshot of Jupyter notebook with machine learning model that takes i
 ## Database
 
 
+We are using the PgAdmin interface with SQL and a Postgress server for our database.
+
+
 ### ERD
 
 
-link or screenshot of ERD
+![FP_ERD3](https://user-images.githubusercontent.com/78699521/127382944-ff63d2b2-e908-4af9-b303-53484415c826.png)
 
 
 ### Sample Database
