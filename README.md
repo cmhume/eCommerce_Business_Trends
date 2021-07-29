@@ -7,22 +7,22 @@
 ### Group Members
 
 
-Elaine Ng - Technology, Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine) 
+Elaine Ng - Technology (X role), Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine) 
 
 
-Luz Maria Cabral - Database, Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz)
+Luz Maria Cabral - Database (Circle role), Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz)
 
 
-Manupriya Sharma - Machine Learning Model, Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Manupriya)
+Manupriya Sharma - Machine Learning Model (Triangle role), Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Manupriya)
 
 
-Corinne Hume - GitHub, Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Corinne), [readme_wk1](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk1)
+Corinne Hume - GitHub (Square role), Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Corinne), [readme_wk1](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk1)
 
 
 ### Project Topic
 
 
-In this project, we will analyze past customer data from an online retailer to predict consumer behavior by geographic region.    
+In this project, we will analyze past customer data from an online retailer with the goal of predicting consumer behavior by geographic region using machine learning.  We chose the [Brazilian-eCommerce](https://www.kaggle.com/olistbr/brazilian-ecommerce) dataset from Kaggle for our analysis.  Six files from the original Kaggle dataset were chosen for further analysis: geolocation_dataset, olist_customers_dataset, olist_product_dataset, order_item_dataset, olist_orders_dataset, and product_category_name_translation.   
 
 * Topic 
 
