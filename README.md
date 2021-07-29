@@ -1,30 +1,25 @@
-
 # Group Project
-
-
 ## Presentation
-**Selected Topic:** Transmission trends of COVID-19/Coronavirus in the United States
+**Selected Topic:** Brazilian eCommerce Business Trends
 
-**Reason why we selected our topic:** 
+**Why we selected our topic:** 
 
-We selected this topic because it's relatable to everyone and the current events going on in the world right now. There are many articles online with charts and other visualizations that talks about the transmission trends of COVID-19 right now, which a lot of people may be interested in. High COVID-19 cases is related to other problems happening in the United States right now, such as unemployment because of the lockdowns.
+We selected this topic because we would like to know the what the consumer online shopping behavior is depending on their geographic location in order to analyze the difference in shopping behaviors depending on a consumer's geographic location. We would also like to know what products would be more in demand depending on the time of year.
 
 **Description of our source of data:**
 
-The datasets I chose shows the amount of COVID-19 cases from January 2020 to July 2021 in the United States. It shows the changes in cases when there were mask rules compared to when they got rid of mask rules. This source of data also has visualizations showing the amount of cases during that timeframe.
+The datasets shows data about the consumers ordering these products, what type of product they ordered, and the geographic region the consumers are located in.
 
-**Questions we hope to answer with the data:**
+**Questions we hope to answer with our data:**
 
 With this data, we hope to answer...
-- Why certain months and counties? 
-- How to help lower COVID-19 transmission rates based on the articles and data?
-- If masking vs. not wearing a mask has an affect on transmission rates.
-- What states have the lowest transmission rates?
+- What is the ordering behavior for consumers in each geographical region?
+- What type of products would a company expect to buy more of depending on the season?
 
 ## Communication Protocol
-- **Slack:** To talk about when to have extra meetings (not including our usual Thursday meetings)
+- **Slack:** To talk about when to have extra meetings outside of class (not including our usual Thursday meetings)
 - **Zoom:** Every Thursday at 7pm to share what we found
-- **Google Drive:** To add websites with data and brainstorm topics to choose from
+- **Google Drive:** To add websites with data, brainstorm topics to choose from, and share our files for the project
 
 ## Machine Learning
 
