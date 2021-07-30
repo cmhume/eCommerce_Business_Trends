@@ -22,7 +22,7 @@ Elaine: X (Technology)
 ### Roles-
 
 
-Corinne: Circle (continue analysis and help create visuals for dashboard)
+Corinne: Circle (continue analysis and help create visuals for dashboard, review pull requests)
 
 
 Manupriya: Triangle (Transform mock-up database into full integrated database)
@@ -49,7 +49,7 @@ Manupriya: X (Test code and measure project deliverables against the rubric)
 Luz: Circle (Create dashboard to display your findings)
 
 
-Elaine: Square (Complete peer reviews on the code)
+Elaine: Square (Complete peer reviews on the code, GitHub README.md, create .gitignore and requirements.txt files for main branch)
 
 
 ## Fourth Segment: Final Presentation, Due Monday, Aug 16, 2021 or Wednesday, Aug 18, 2021
