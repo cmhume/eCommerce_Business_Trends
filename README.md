@@ -114,4 +114,12 @@ We are using a PostgreSQL 11 server with the pgAdmin interface for our database.
 https://github.com/cmhume/eCommerce_Business_Trends/blob/Database/Geolocation_revised.ipynb
 
 
+### Creating tables in SQL
+
+
+### Joining tables in SQL
+
+
+
+
 
