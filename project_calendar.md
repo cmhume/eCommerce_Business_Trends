@@ -25,7 +25,7 @@ Elaine: X (Technology)
 Corinne: Circle (continue analysis and help create visuals for dashboard)
 
 
-Manupriya: Triangle (Transform mock-up databse into full integrated database)
+Manupriya: Triangle (Transform mock-up database into full integrated database)
 
 
 Luz: X (Outline dashboard for final project, check grading rubric)
