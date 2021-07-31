@@ -117,18 +117,19 @@ https://github.com/cmhume/eCommerce_Business_Trends/blob/Database/Geolocation_re
 ### Creating tables in SQL
 
 
-Schema - https://github.com/cmhume/eCommerce_Business_Trends/blob/31305c1985f295618599131190d3154b92eb57e2/schema.sql
+[Schema](https://github.com/cmhume/eCommerce_Business_Trends/blob/31305c1985f295618599131190d3154b92eb57e2/schema.sql)
 
 
 ### Joining tables in SQL
 
 
-We created a sample table to test our machine learning models.   
-
-Sample Database - https://github.com/cmhume/eCommerce_Business_Trends/blob/31305c1985f295618599131190d3154b92eb57e2/product_sample.csv!
+We created the following sample table to test our mock-up machine learning model.   
 
 
-[Screenshot (365)](https://user-images.githubusercontent.com/78699521/127746947-1885d47b-b822-4bed-9fa0-e227a0e82c11.png)
+[Sample Database](https://github.com/cmhume/eCommerce_Business_Trends/blob/31305c1985f295618599131190d3154b92eb57e2/product_sample.csv)
+
+
+![Screenshot (365)](https://user-images.githubusercontent.com/78699521/127746947-1885d47b-b822-4bed-9fa0-e227a0e82c11.png)
 
 
 
