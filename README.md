@@ -117,9 +117,13 @@ https://github.com/cmhume/eCommerce_Business_Trends/blob/Database/Geolocation_re
 ### Creating tables in SQL
 
 
+Schema - https://github.com/cmhume/eCommerce_Business_Trends/blob/31305c1985f295618599131190d3154b92eb57e2/schema.sql
+
+
 ### Joining tables in SQL
 
 
+Sample Database - 
 
 
 
