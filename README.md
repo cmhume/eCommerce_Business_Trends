@@ -81,19 +81,19 @@ With this data, we hope to answer...
 We plan on trying a variety of machine learning models on our database and choosing the best performing model for our final analysis.
 
 
-### Tensor Flow Diagram
+### Data Exploration
 
 
-screenshot of TensorFlow diagram for machine learning model
-
-
-Bar graph of machine learning models accuracy
-
-
-### Jupyter Notebook
+Jupyter notebook was used for initial data exploration as seen below:
 
 
 [Data Exploration and Machine Learning Models](https://github.com/cmhume/eCommerce_Business_Trends/blob/Machine_Learning/ecommerce_business_trend.ipynb)
+
+
+### Mock-up Machine Learning Model
+
+
+link to mock-up machine learning model
 
 
 ## Database
@@ -111,7 +111,14 @@ We are using a PostgreSQL 11 server with the pgAdmin interface for our database.
 ### Cleaning csv files with pandas
 
 
-https://github.com/cmhume/eCommerce_Business_Trends/blob/Database/Geolocation_revised.ipynb
+Many of the original files from our dataset had duplicate and missing entries, jupyter notebook and pandas were used to clean the original files. Then the cleaned versions were saved with a new name and exported to our SQL server where tables were created.  Below is a link to our jupyter notebook and an example of the cleaning process on the geolocation dataset.
+
+
+[Jupyter Notebook](https://github.com/cmhume/eCommerce_Business_Trends/blob/Database/Geolocation_revised.ipynb)
+
+
+![Screenshot (374)](https://user-images.githubusercontent.com/78699521/127747712-3ffa02c2-8c5d-47d6-b77b-02c6661d90ab.png)
+
 
 
 ### Creating tables in SQL
@@ -127,7 +134,7 @@ https://github.com/cmhume/eCommerce_Business_Trends/blob/Database/Geolocation_re
 ### Joining tables in SQL
 
 
-We created the following product sample table in SQL and exported it as a csv file to test our mock-up machine learning model.  In this table, the product name translation was joined with the product_revised table on product_category_name, and additional joins with order_item and customer_id were also performed.  The joins are shown in more detail below under SQL Query along with the created csv file under Product Sample Database.   
+We created the following product sample table in SQL and exported it as a csv file to test our mock-up machine learning model.  In this table, the product_name_translation was joined with the product_revised table on product_category_name, and additional joins with order_item and customer_id were also performed.  The joins are shown in more detail below, along with the created product_sample.csv file.   
 
 
 #### SQL Query 
