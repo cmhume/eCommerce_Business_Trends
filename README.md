@@ -69,9 +69,6 @@ With this data, we hope to answer...
 * We will post on slack before merging to the main branch and after creating new branches.
 
 
-* Every Thursday we will merge work to the main branch for everyone to review and provide feedback. 
-
-
 * On Sundays at 7pm, we will check in on Slack to review our GitHub page before turning in the assignment on Canvas.  
 
 
