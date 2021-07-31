@@ -87,7 +87,10 @@ We plan on trying a variety of machine learning models on our database and choos
 Jupyter notebook was used for initial data exploration as seen below:
 
 
-[Data Exploration and Machine Learning Models](https://github.com/cmhume/eCommerce_Business_Trends/blob/Machine_Learning/ecommerce_business_trend.ipynb)
+[Data Exploration and Machine Learning Models](https://github.com/cmhume/eCommerce_Business_Trends/blob/c9e1c5a6ad08d4dadfdfad7846ac6b0e262dcc3e/Machine_Learning/ecommerce_business_trend.ipynb)
+
+
+![Screenshot (376)](https://user-images.githubusercontent.com/78699521/127748015-09d78f09-7d16-40d4-b3db-c41e5c681123.png)
 
 
 ### Mock-up Machine Learning Model
