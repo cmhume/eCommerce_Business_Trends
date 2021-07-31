@@ -117,19 +117,32 @@ https://github.com/cmhume/eCommerce_Business_Trends/blob/Database/Geolocation_re
 ### Creating tables in SQL
 
 
-[Schema](https://github.com/cmhume/eCommerce_Business_Trends/blob/31305c1985f295618599131190d3154b92eb57e2/schema.sql)
+[Schema](https://github.com/cmhume/eCommerce_Business_Trends/blob/31305c1985f295618599131190d3154b92eb57e2/Wk__DB_orders.sql)
+
+
+![Screenshot (372)](https://user-images.githubusercontent.com/78699521/127747331-f1bb587e-d59c-4443-b71a-6d2e2a3cdea7.png)
+
 
 
 ### Joining tables in SQL
 
 
-We created the following sample table to test our mock-up machine learning model.   
+We created the following product sample table in SQL and exported it as a csv file to test our mock-up machine learning model.  In this table, the product name translation was joined with the product_revised table on product_category_name, and additional joins with order_item and customer_id were also performed.  The joins are shown in more detail below under SQL Query along with the created csv file under Product Sample Database.   
 
 
-[Sample Database](https://github.com/cmhume/eCommerce_Business_Trends/blob/31305c1985f295618599131190d3154b92eb57e2/product_sample.csv)
+#### SQL Query 
+
+
+![Screenshot (371)](https://user-images.githubusercontent.com/78699521/127747399-f7e31ec6-1a79-48ed-a95d-301dfb8f8572.png)
+
+
+
+[#### Product Sample Database](https://github.com/cmhume/eCommerce_Business_Trends/blob/31305c1985f295618599131190d3154b92eb57e2/product_sample.csv)
 
 
 ![Screenshot (365)](https://user-images.githubusercontent.com/78699521/127746947-1885d47b-b822-4bed-9fa0-e227a0e82c11.png)
+
+
 
 
 
