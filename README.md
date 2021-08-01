@@ -57,6 +57,9 @@ With this data, we hope to answer...
 * Every Monday we will meet to plan the deliverables and responsibilities for the entire week. Everyone will work on their branch or feature branch on Github.
 
 
+- **Google Drive:** To add websites with data, brainstorm topics to choose from, and share our files for the project
+
+
 #### Debugging Session:
 
 
