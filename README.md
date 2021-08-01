@@ -43,6 +43,7 @@ We chose the [Brazilian-eCommerce](https://www.kaggle.com/olistbr/brazilian-ecom
 With this data, we hope to answer...
 - What is the ordering behavior for consumers in each geographical region?
 - What type of products would a company expect to buy more of depending on the season?
+- Analyse reviews and develop predictive model based on the given parameters. 
 
 
 ### Communication Protocol
@@ -77,8 +78,15 @@ With this data, we hope to answer...
 
 ## Machine Learning
 
-
-We plan on trying a variety of machine learning models on our database and choosing the best performing model for our final analysis.
+We plan on trying a variety of machine learning models on our database and choosing the best performing model for our final analysis. We choose the following classification models to analyse our data:
+- Logistic Regresssion
+- K-NN model
+- SVM model: Linear
+- Kernel SVM: Non Linear
+- Decision Tree
+- Ensemble: Randon Forest
+- k-Fold Cross Validation
+- Artification Neural Network
 
 
 ### Data Exploration
