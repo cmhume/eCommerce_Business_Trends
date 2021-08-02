@@ -114,7 +114,8 @@ Jupyter notebook was used for initial data exploration as seen below:
 ### Mock-up Machine Learning Model
 
 
-link to mock-up machine learning model
+![Screenshot (383)](https://user-images.githubusercontent.com/78699521/127800415-de13a419-7cfc-4284-bba7-2c9d176cb5c9.png)
+
 
 
 ## Database
