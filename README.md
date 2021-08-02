@@ -88,6 +88,7 @@ We plan on trying a variety of machine learning models on our database and choos
 - k-Fold Cross Validation
 - Artification Neural Network
 
+Week 1: This week we created logistic regression model to look at the relationship of features like zipcode, state, price, freight value and product category on the review score. Kernel SVM – nonlinear model gave the best accuracy of 56.4% that suggests that we need to look at some other features like order date and delivery date in order to create a better model.
 
 ### Data Exploration
 
@@ -99,6 +100,12 @@ Jupyter notebook was used for initial data exploration as seen below:
 
 
 ![Screenshot (376)](https://user-images.githubusercontent.com/78699521/127748015-09d78f09-7d16-40d4-b3db-c41e5c681123.png)
+
+
+![image (2)](https://user-images.githubusercontent.com/78699521/127797828-9de00b7b-bb34-40dc-ad43-695d8dca795e.png)
+
+
+![image (1)](https://user-images.githubusercontent.com/78699521/127797843-2e4ec95e-d7c5-4818-9bee-66b577a210f6.png)
 
 
 ### Mock-up Machine Learning Model
