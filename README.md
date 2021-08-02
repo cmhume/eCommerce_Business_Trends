@@ -99,7 +99,13 @@ Jupyter notebook was used for initial data exploration as seen below:
 [Data Exploration and Machine Learning Models](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Machine_Learning/ecommerce_business_trend_ML.ipynb)
 
 
+#### Top 50 Product Categories
+
+
 ![image (2)](https://user-images.githubusercontent.com/78699521/127797828-9de00b7b-bb34-40dc-ad43-695d8dca795e.png)
+
+
+#### Correlation of different features 
 
 
 ![image (1)](https://user-images.githubusercontent.com/78699521/127797843-2e4ec95e-d7c5-4818-9bee-66b577a210f6.png)
