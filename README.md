@@ -96,10 +96,7 @@ Week 1: This week we created logistic regression model to look at the relationsh
 Jupyter notebook was used for initial data exploration as seen below:
 
 
-[Data Exploration and Machine Learning Models](https://github.com/cmhume/eCommerce_Business_Trends/blob/c9e1c5a6ad08d4dadfdfad7846ac6b0e262dcc3e/Machine_Learning/ecommerce_business_trend.ipynb)
-
-
-![Screenshot (376)](https://user-images.githubusercontent.com/78699521/127748015-09d78f09-7d16-40d4-b3db-c41e5c681123.png)
+[Data Exploration and Machine Learning Models](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Machine_Learning/ecommerce_business_trend_ML.ipynb)
 
 
 ![image (2)](https://user-images.githubusercontent.com/78699521/127797828-9de00b7b-bb34-40dc-ad43-695d8dca795e.png)
@@ -126,7 +123,7 @@ We are using a PostgreSQL 11 server with the pgAdmin interface for our database.
 To begin with this analysis we reviewed the different information that was provided by the six datasets we chose to work with. Using the Quick Databse Diagrams (Quick DBD) we were able to draw out our datasets using the Entity Relationship Diagrams (ERD) and find the relation between all of them.  We then mapped how we would merge our data to achieve the results we had set for ourselves. 
 
 
-![FP_ERD3](https://user-images.githubusercontent.com/78699521/127382944-ff63d2b2-e908-4af9-b303-53484415c826.png)
+![FP_ERD3](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Resources/Schema/FP_ERD3.png)
 
 
 ### Cleaning csv files with pandas
@@ -143,7 +140,7 @@ As we tried to upload the datasets to pgAdmin we noticed they needed some light 
 ### Creating tables in SQL
 
 
-[Schema](https://github.com/cmhume/eCommerce_Business_Trends/blob/31305c1985f295618599131190d3154b92eb57e2/Wk__DB_orders.sql)
+[Schema](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Resources/Schema/Wk__DB_orders.sql)
 
 
 ![Screenshot (372)](https://user-images.githubusercontent.com/78699521/127747331-f1bb587e-d59c-4443-b71a-6d2e2a3cdea7.png)
@@ -158,7 +155,7 @@ In addition, the geolocation_revised was merged with olist_customers_dataset to 
 The combined dataset has over 99,000 entries, we understand we will need to take a sample of this to continue with our analysis since this dataset is mega. For the assignment this week we randomly selected a sample of 150 entries from this merged dataset and that's what is reviewed in our Machine Learning portion.   
 
 
-[Product Sample Database](https://github.com/cmhume/eCommerce_Business_Trends/blob/31305c1985f295618599131190d3154b92eb57e2/product_sample.csv)
+[Product Sample Database](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Resources/Data_Cleaned/product_sample.csv)
 
 
 ![Screenshot (371)](https://user-images.githubusercontent.com/78699521/127747399-f7e31ec6-1a79-48ed-a95d-301dfb8f8572.png)
