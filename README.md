@@ -90,6 +90,13 @@ We plan on trying a variety of machine learning models on our database and choos
 
 Week 1: This week we created logistic regression model to look at the relationship of features like zipcode, state, price, freight value and product category on the review score. Kernel SVM – nonlinear model gave the best accuracy of 56.4% that suggests that we need to look at some other features like order date and delivery date in order to create a better model.
 
+#### Model Accuracy
+The pictures below show the comparison of accuracies of all the models we created for our data
+
+<img width="134" alt="Model accuracy table" src="https://user-images.githubusercontent.com/69255270/127803121-3be8d372-9960-4fd0-9d25-093f0c3b01a3.png">
+<img width="665" alt="Model accuracy" src="https://user-images.githubusercontent.com/69255270/127803127-22f752a6-3305-4a1b-b5c6-6ea14d6a8638.png">
+
+
 ### Data Exploration
 
 
