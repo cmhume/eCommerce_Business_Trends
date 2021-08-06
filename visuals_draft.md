@@ -1,6 +1,8 @@
 # Popular Product Categories by Size
 
 
+[Tableau Workbook](https://10ay.online.tableau.com/t/ecommercetrends20162018/views/eCommerce_Draft/Bed_Bath_Table_Map?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link)
+
 ![Screenshot (394)](https://user-images.githubusercontent.com/78699521/128403476-ba7dce66-9c55-4258-9a15-1b92a03cdd1a.png)
 
 
