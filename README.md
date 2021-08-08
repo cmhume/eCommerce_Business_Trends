@@ -93,10 +93,15 @@ We plan on trying a variety of machine learning models on our database and choos
 
 Week 1: This week we created logistic regression model to look at the relationship of features like zipcode, state, price, freight value and product category on the review score. Kernel SVM – nonlinear model gave the best accuracy of 56.4% that suggests that we need to look at some other features like order date and delivery date in order to create a better model.
 
-#### Model Accuracy
-The pictures below show the comparison of accuracies of all the models we created for our data
 
-<img width="134" alt="Model accuracy table" src="https://user-images.githubusercontent.com/69255270/127803121-3be8d372-9960-4fd0-9d25-093f0c3b01a3.png">    <img width="665" alt="Model accuracy" src="https://user-images.githubusercontent.com/69255270/127803127-22f752a6-3305-4a1b-b5c6-6ea14d6a8638.png">
+Week 2: 
+
+#### Model Accuracy
+
+
+The pictures below show the comparison of accuracies of all the models we created for our data:
+
+
 
 
 ### Data Exploration
@@ -123,14 +128,10 @@ Jupyter notebook was used for initial data exploration as seen below:
 ### Mock-up Machine Learning Model
 
 
-![Screenshot (383)](https://user-images.githubusercontent.com/78699521/127800415-de13a419-7cfc-4284-bba7-2c9d176cb5c9.png)
-
-
-
 ## Database
 
 
-We are using a PostgreSQL 11 server with the pgAdmin interface for our database.
+The final database is on a PostgresSQL Server on AWS.  Initial table creation and table joining was performed using SQL in pgAdmin. 
 
 
 ### ERD
@@ -165,22 +166,8 @@ As we tried to upload the datasets to pgAdmin we noticed they needed some light 
 ### Joining tables in SQL
 
 
-We created the following product sample table in SQL and exported it as a csv file to test our mock-up machine learning model.  In this table, the product_name_translation was joined with the product_revised table on product_category_name, and additional joins with order_item and customer_id were also performed.  The joins are shown in more detail below, along with the created product_sample.csv file.   
-In regards to product analysis and sales we decided it would be optimal to merge product_revised with product_category_name_translation, order_item_revised, order_list_revised, and the olist_customers_dataset. With inner joins we were able to create one dataset with all the analysis information needed; who's ordering, what they're ordering, and where it's going to. Price of item and freight is also included for company to review sales and costs. 
-In addition, the geolocation_revised was merged with olist_customers_dataset to create order_locations.csv, for reviewing purchasing behaviors across regions of the country. At this time, analysis and machine learning will be performed on our three main datasets, the purchase_data.csv, order_locations.csv and the order_item_revised.csv.  This may change as our finding guide the research.
-The combined dataset has over 99,000 entries, we understand we will need to take a sample of this to continue with our analysis since this dataset is mega. For the assignment this week we randomly selected a sample of 150 entries from this merged dataset and that's what is reviewed in our Machine Learning portion.   
 
-
-[Product Sample Database](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Resources/Data_Cleaned/product_sample.csv)
-
-
-![Screenshot (371)](https://user-images.githubusercontent.com/78699521/127747399-f7e31ec6-1a79-48ed-a95d-301dfb8f8572.png)
-
-
-#### SQL Query 
-
-
-![Screenshot (365)](https://user-images.githubusercontent.com/78699521/127746947-1885d47b-b822-4bed-9fa0-e227a0e82c11.png)
+### AWS Database connection string
 
 
 ## Dashboard
@@ -193,6 +180,9 @@ Link to Draft Story on [Tableau](https://10ay.online.tableau.com/t/ecommercetren
 
 
 For the Dashboard, we began working on Google slides and figuring out how our presentation would flow. We decided to tell our story with Google slides and show our final dashboard with Tableau. Since a couple of us will be working on Tableau, we started a free trial using Tableau Online so we can all download and edit the same files. 
+
+
+### Outline
 
 Our preliminary slides will show how we chose the topic of eCommerce Business Trends, where we gathered our data from, and topics of exploration.
 ![Google slide pic](Dashreadwk2_pics/pres_slide1.png)
