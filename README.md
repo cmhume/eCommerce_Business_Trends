@@ -192,20 +192,40 @@ Link to Story Board on [Google Slides](https://docs.google.com/presentation/d/1Y
 Link to Draft Story on [Tableau](https://10ay.online.tableau.com/t/ecommercetrends20162018/views/eCommerce_Draft/eCommerce_Draft_1?:showAppBanner=false&:origin=viz_share_link&:display_count=n&:showVizHome=n)
 
 
-This week our team worked hard in getting Database connected and Machine Learning models getting close to a good percentage. For the Dashboard and story we began working on our Google slides and figuring out how our presentation would flow. We've decided on working with Google slides and Tableau for the presentation, tell our story in Google slides and show our visualizations via Tableau. Since a couple of us would be working on Tableau it was easiest to open a free trial Tableau account so we can all have access to it. 
+For the Dashboard, we began working on Google slides and figuring out how our presentation would flow. We decided to tell our story with Google slides and show our final dashboard with Tableau. Since a couple of us will be working on Tableau, we started a free trial using Tableau Online so we can all download and edit the same files. 
 
-Our preliminary slides show how we came about the topic of eCommerce Business Trends, where we gathered our data from and topics of exploration.
+Our preliminary slides will show how we chose the topic of eCommerce Business Trends, where we gathered our data from, and topics of exploration.
 ![Google slide pic](Dashreadwk2_pics/pres_slide1.png)
 
-For the Database portions or our slides we want to connect to Jupyter Notebook and show our connections to AWS, postgresSQL, our database connectivity. 
+For the Database portion, we will show how our database connects with the machine learning model in jupyter notebook and how we used SQL joins to create our final database. 
 ![Google slide pic](Dashreadwk2_pics/pres_slide2.png)
 
-For machine learning we intend to try to import the data via AWS in order to run the machine learning models. We will be choosing the models that provided the better results. 
-
-Storyboarding our dashboard, we've decided to speak a little about Olist and there numbers in 2016-2018, if their was a rise in sellers, was their any fluctuation to sale of products, and what were customers saying about their shopping experience. We hope to show that with line graphs that can togle between years. Maps with customer reviews in the pop ups from the cities they come from. Review if seller accounts have increase over the 3 year time span presented. And another dashboard for logistics, it's part of the service they offer and we want to review further see how it impact the buying and selling experience. 
-
-We've created a Tableau online account on the free trial and hope to complete the presentation within the free trial time. We've included a link in our slides. Looking forward we hope to solidify our data to be able to create this visualizations. 
+For the machine learning section we will show the results of our machine learning models, predictions, and which algorithm performed best. 
 
 
+### Storyboarding our dashboard:
 
 
+#### Questions we will address with our Dashboard (using Olist Sales Data from 2016-2018)
+
+
+* Did the number of sellers increase over time?
+* How did the number of sales by product category change over time?
+* How did customer review scores change over time?
+
+
+We will show this information with:
+
+
+Interactive elements:
+
+* line graphs that can be filtered by year 
+* Maps that can be filtered by customer review scores, product category,  and city
+
+
+Additional Ideas:
+
+
+* Review if the number of seller accounts have increased over time
+* And another dashboard for logistics
+    * how do logistics impact the buying and selling experience? 
