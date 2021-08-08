@@ -101,15 +101,7 @@ Once we have our tables, we copied data from CSV files with psycopg2 using the c
 <img width="417" alt="SQL connection 2" src="https://user-images.githubusercontent.com/69255270/128648687-d4cabb97-31e9-469e-b9a5-a65de3e4defc.png">
 
 #### Step 10: Importing data from AWS database to jupyter notebook for Machie Learning (Code included in theabove picture)
+We used pandas to read SQl database to jupyter notebook.  We used final_customers_sql file to create machine learning models
 
-
-
-
-
-
-Connection String:
-
-
-How Database connects to Machine Learning Model:
-
+<img width="629" alt="SQL_todb" src="https://user-images.githubusercontent.com/69255270/128648778-1650ad90-d6b8-4676-bba9-5d850da1c7b2.png">
 
