@@ -90,6 +90,12 @@ We plan on trying a variety of machine learning models on our database and choos
 
 Week 1: This week we created logistic regression model to look at the relationship of features like zipcode, state, price, freight value and product category on the review score. Kernel SVM – nonlinear model gave the best accuracy of 56.4% that suggests that we need to look at some other features like order date and delivery date in order to create a better model.
 
+Week 2:
+- Description of preliminary data preprocessing.
+- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process.
+- Description of how data was split into training and testing sets.
+- Explanation of model choice, including limitations and benefits.
+
 ### Data Exploration
 
 
