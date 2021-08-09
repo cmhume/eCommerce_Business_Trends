@@ -79,53 +79,6 @@ With this data, we hope to answer...
 * On Sundays at 7pm, we will check in on Slack to review our GitHub page before turning in the assignment on Canvas.  
 
 
-## Machine Learning
-
-
-We plan on trying a variety of machine learning models on our database and choosing the best performing model for our final analysis. We choose the following classification models to analyse our data:
-- Logistic Regresssion
-- K-NN model
-- SVM model: Linear
-- Kernel SVM: Non Linear
-- Decision Tree
-- Ensemble: Randon Forest
-- k-Fold Cross Validation
-- Artification Neural Network
-
-Week 1: This week we created logistic regression model to look at the relationship of features like zipcode, state, price, freight value and product category on the review score. Kernel SVM – nonlinear model gave the best accuracy of 56.4% that suggests that we need to look at some other features like order date and delivery date in order to create a better model.
-
-
-Week 2: 
-
-#### Model Accuracy
-
-
-The pictures below show the comparison of accuracies of all the models we created for our data:
-
-
-
-
-### Data Exploration 
-
-
-Jupyter notebook was used for initial data exploration as seen below:
-
-
-[Data Exploration and Machine Learning Models](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Machine_Learning/ecommerce_business_trend_ML.ipynb)
-
-
-#### Top 50 Product Categories
-
-
-![image (2)](https://user-images.githubusercontent.com/78699521/127797828-9de00b7b-bb34-40dc-ad43-695d8dca795e.png)
-
-
-#### Correlation of different features 
-
-
-![image (1)](https://user-images.githubusercontent.com/78699521/127797843-2e4ec95e-d7c5-4818-9bee-66b577a210f6.png)
-
-
 ## Database
 
 
