@@ -1,12 +1,3 @@
 ## Machine Learning
 
-Description of Preprocessing:
-
-
-Description of Feature Engineering, Feature Selection, and Decision-making Process:
-
-
-Description of how Data was split into Testing and Training Sets:
-
-
-Explanation of Model choice, including limitations and benefits:
+The goal of the training and testing sets is to create the machine learning model to predict review score. We took the review score and used it as a target column, then made it into y data. After that, we put x and y into training and testing to make X_train, X_test and y_train, and y_test. We split the data by making a 75/25 split where 25 is testing. X is everything except review score and y is review score.
