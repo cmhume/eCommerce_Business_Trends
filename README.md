@@ -118,7 +118,7 @@ SQL inner joins were used to connect all the tables.
 We used an AWS free tier template to create our RDS database on AWS. We learned that free templates are only available for Postgres 12 and higher versions.
 
 
-AWS![Uploading AWS.png…]()
+<img width="720" alt="AWS" src="https://user-images.githubusercontent.com/78699521/128657713-2d95e1f0-c2cd-4b7c-ba33-65f364f8823b.png">
 
 
 We made our database accessible from anywhere so it’s accessible outside of the default VPC.  
