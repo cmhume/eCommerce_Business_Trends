@@ -313,7 +313,7 @@ As our target variable is binary, we choose classification model.  We created 6 
 6.	Artificial Neural Network: We were hoping to get the highest accuracy with this one but it gave us accuracy of 87%
 
 Here is a graph that shows the comparison of all the models we tested:
-![Picture2](https://user-images.githubusercontent.com/69255270/128654867-ae82a472-d1ff-4475-aa0b-33a616d501b0.png)
+<img width="585" alt="comparison2" src="https://user-images.githubusercontent.com/69255270/128655194-c6e04018-5a05-4ef1-a5ad-aecde4a3dea4.png">
 
 
 ## Dashboard
