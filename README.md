@@ -305,12 +305,12 @@ We used pandas to read in the SQL database to jupyter notebook.  We used the fin
 ![Picture1](https://user-images.githubusercontent.com/69255270/128654839-26c38bca-fbd0-4fe2-b73a-e6170dfd33b4.png)
 
 As our target variable is binary, we choose classification model.  We created 6 different models and compared their accuracy. Over all we got pretty good accuracy >85% for all the models we tested but Random forest performed the best for our data:
-1.	Linear Logistic Regression: We got accuracy of 88%
-2.	K-NN model: We were hoping to receive higher accuracy with K-NN but we got lower accuracy of 86%
+1.	Linear Logistic Regression: We got accuracy of 88%. Logistic regression is easier to implement and interpret, and very efficient to train. But it is tough to obtain complex relationships using logistic regression and it over fits the model.
+2.	K-NN model: We were hoping to receive higher accuracy with K-NN but we got lower accuracy of 86% than logistic regression. One benefit of KNN algorithm is that it doesn’t require training before making predictions, new data can be added seamlessly which will not impact the accuracy of the algorithm.
 3.	Kernel SVM:Non Linear: We got accuracy of 87%
-4.	Decision Tree: We got accuracy of 95%
-5.	Ensemble: Randon Forest: As this combines various decision tree models, it gave us the best value of accuracy of 96%
-6.	Artificial Neural Network: We were hoping to get the highest accuracy with this one but it gave us accuracy of 87%
+4.	Decision Tree: We got accuracy of 95%. 7.	Decision Tree algorithm is very intuitive and easy to understand but a small change in the data can change the prediction big time.  
+5.	Ensemble: Randon Forest: As this combines various decision tree models, it gave us the best value of accuracy of 96% . The Random Forest doesn’t over fit the model but it makes algorithms to run slow. 
+6.	Artificial Neural Network: We were hoping to get the highest accuracy with this one but it gave us accuracy of 87%. ANN can overfit the data and takes a lot of time to run.  
 
 Here is a graph that shows the comparison of all the models we tested:
 <img width="585" alt="comparison2" src="https://user-images.githubusercontent.com/69255270/128655194-c6e04018-5a05-4ef1-a5ad-aecde4a3dea4.png">
