@@ -192,7 +192,7 @@ The final joined database was imported to jupyter notebook and it has a total of
 <img width="494" alt="info" src="https://user-images.githubusercontent.com/69255270/128648229-152faa16-4ece-4357-bcf1-63a9ae06c7db.png">
 
 
-#### Step 3: Simplifying our data
+#### Step 3: Simplifying our data (Machine Learning)
 
 
 We created a profile of our data to understand the relation between various features. We realized many features in our data did not affect the review score so we dropped those columns.  For example, features like "customer_city", "customer_state", "geolocation_lat","geolocation_lng", "customer_id", "order_purchase_timestamp", "order_approved_at", "order_delivered_carrier_date", "payment_sequential" were dropped.  
