@@ -1,22 +1,25 @@
 # eCommerce Business Trends
 
 
-## Presentation
-
-
 ### Group Members
 
 
-Elaine Ng - Technology (X role), Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine), [technology.md](https://github.com/cmhume/eCommerce_Business_Trends/tree/technology.md)
+Elaine Ng - Machine Learning Model (Square role), Branches: [Elaine](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine), [technology.md](https://github.com/cmhume/eCommerce_Business_Trends/tree/technology.md), [Machine_Learning](https://github.com/cmhume/eCommerce_Business_Trends/tree/Machine_Learning), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Machine_Learning_Elaine.md)
 
 
-Luz Maria Cabral - Database (Circle role), Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz), [Database](https://github.com/cmhume/eCommerce_Business_Trends/tree/Database)
+Luz Maria Cabral - Dashboard (X role), Branches: [Luz](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Dashboard_Luz.md)
 
 
-Manupriya Sharma - Machine Learning Model (Triangle role), Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Manupriya), [Machine_Learning](https://github.com/cmhume/eCommerce_Business_Trends/tree/Machine_Learning)
+Manupriya Sharma - Database (Triangle role), Branches: [Manupriya](https://github.com/cmhume/eCommerce_Business_Trends/tree/Manupriya), [Database](https://github.com/cmhume/eCommerce_Business_Trends/tree/Database), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Database_Manupriya.md)
 
 
-Corinne Hume - GitHub (Square role), Branches: [Repo Branch](https://github.com/cmhume/eCommerce_Business_Trends/tree/Corinne), [readme_wk1](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk1)
+Corinne Hume - Visual (Circle role), Branches: [Corinne](https://github.com/cmhume/eCommerce_Business_Trends/tree/Corinne), [visuals_wk2](https://github.com/cmhume/eCommerce_Business_Trends/tree/visuals_wk2), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/edit/readme_wk2)
+
+
+## Presentation
+
+
+Link to [Google Slides](https://docs.google.com/presentation/d/1YUH8ro5pKktJKYCZNBRglaXnZXEQMiV8kwARAiLlti0/edit?usp=sharing)
 
 
 ### Project 
@@ -76,112 +79,242 @@ With this data, we hope to answer...
 * On Sundays at 7pm, we will check in on Slack to review our GitHub page before turning in the assignment on Canvas.  
 
 
-## Machine Learning
-
-We plan on trying a variety of machine learning models on our database and choosing the best performing model for our final analysis. We choose the following classification models to analyse our data:
-- Logistic Regresssion
-- K-NN model
-- SVM model: Linear
-- Kernel SVM: Non Linear
-- Decision Tree
-- Ensemble: Randon Forest
-- k-Fold Cross Validation
-- Artification Neural Network
-
-Week 1: This week we created logistic regression model to look at the relationship of features like zipcode, state, price, freight value and product category on the review score. Kernel SVM – nonlinear model gave the best accuracy of 56.4% that suggests that we need to look at some other features like order date and delivery date in order to create a better model.
-
-#### Model Accuracy
-The pictures below show the comparison of accuracies of all the models we created for our data
-
-<img width="134" alt="Model accuracy table" src="https://user-images.githubusercontent.com/69255270/127803121-3be8d372-9960-4fd0-9d25-093f0c3b01a3.png">    <img width="665" alt="Model accuracy" src="https://user-images.githubusercontent.com/69255270/127803127-22f752a6-3305-4a1b-b5c6-6ea14d6a8638.png">
-
-
-### Data Exploration
-
-
-Jupyter notebook was used for initial data exploration as seen below:
-
-
-[Data Exploration and Machine Learning Models](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Machine_Learning/ecommerce_business_trend_ML.ipynb)
-
-
-#### Top 50 Product Categories
-
-
-![image (2)](https://user-images.githubusercontent.com/78699521/127797828-9de00b7b-bb34-40dc-ad43-695d8dca795e.png)
-
-
-#### Correlation of different features 
-
-
-![image (1)](https://user-images.githubusercontent.com/78699521/127797843-2e4ec95e-d7c5-4818-9bee-66b577a210f6.png)
-
-
-### Mock-up Machine Learning Model
-
-
-![Screenshot (383)](https://user-images.githubusercontent.com/78699521/127800415-de13a419-7cfc-4284-bba7-2c9d176cb5c9.png)
-
-
-
 ## Database
 
 
-We are using a PostgreSQL 11 server with the pgAdmin interface for our database.
-
-
-### ERD
-
-
-To begin with this analysis we reviewed the different information that was provided by the six datasets we chose to work with. Using the Quick Databse Diagrams (Quick DBD) we were able to draw out our datasets using the Entity Relationship Diagrams (ERD) and find the relation between all of them.  We then mapped how we would merge our data to achieve the results we had set for ourselves. 
+We used Postgres to create tables in SQL. The ERD below shows connectivity among 9 tables. 
 
 
 ![FP_ERD3](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Resources/Schema/FP_ERD3.png)
 
 
-### Cleaning csv files with pandas
+The description of these tables is as follows: 
 
 
-As we tried to upload the datasets to pgAdmin we noticed they needed some light cleaning and removing of duplicate information.  To clean and merge datasets we used a combination of jupyter notebook/pandas and PostgresSQL/pgAdmin interface.  It was easier to do the cleaning in Jupyter Notebook, and such was used to clean geolocation dataset, olist_product_dataset, order_item_dataset, and olist_orders_dataset.  This process shrank our datasets, still leaving us with thousands of entries to work with. After cleaning they were easily uploaded to postgres with new titles; geolocation_revies.csv, order_item_revised, order_list_revised, and product_revised.  We were then able to merge some datasets to better fit our analysis.  Below is a link to our data cleaning jupyter notebook and an example of the cleaning process on the geolocation dataset.
-
-[Jupyter Notebook](https://github.com/cmhume/eCommerce_Business_Trends/blob/Database/Geolocation_revised.ipynb)
-
-
-![Screenshot (374)](https://user-images.githubusercontent.com/78699521/127747712-3ffa02c2-8c5d-47d6-b77b-02c6661d90ab.png)
-
-
-### Creating tables in SQL
-
-
-[Schema](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Resources/Schema/Wk__DB_orders.sql)
+1) olist_orders_dataset: This table is connected to 4 other tables. It is used to connect all the details related to an order.
+2) olist_order_items_dataset: It contains the details of an item that had been purchased such as shipping date, price and so on.
+3) olist_order_reviews_dataset: It contains details related to any reviews posted by the customer on a particular product that he had purchased.
+4) olist_products_dataset: It contains related to a product such as the ID, category name and measurements.
+5) olist_order_payments_dataset: The information contained in this table is related to the payment details associated with a particular order.
+6) olist_customers_dataset: Details the customer base information of this firm.
+7) olist_geolocation_dataset: It contains geographical information related to both the sellers and customers.
+8) olist_sellers_dataset: This table contains the information related to all the sellers who have registered with this firm.
+9) olist_product_category_name_translation: This table is connected to products database. 
 
 
-![Screenshot (372)](https://user-images.githubusercontent.com/78699521/127747331-f1bb587e-d59c-4443-b71a-6d2e2a3cdea7.png)
+We cleaned all these tables using Jupyter Notebook and imported them to a postgresSQL 11 server for joining the tables to create one big database to further analyze. 
+SQL inner joins were used to connect all the tables. 
 
 
-### Joining tables in SQL
+<img width="590" alt="SQL" src="https://user-images.githubusercontent.com/69255270/128648004-910c37f3-e5bb-44ba-bfbc-8820744e1d79.png">
 
 
-We created the following product sample table in SQL and exported it as a csv file to test our mock-up machine learning model.  In this table, the product_name_translation was joined with the product_revised table on product_category_name, and additional joins with order_item and customer_id were also performed.  The joins are shown in more detail below, along with the created product_sample.csv file.   
-In regards to product analysis and sales we decided it would be optimal to merge product_revised with product_category_name_translation, order_item_revised, order_list_revised, and the olist_customers_dataset. With inner joins we were able to create one dataset with all the analysis information needed; who's ordering, what they're ordering, and where it's going to. Price of item and freight is also included for company to review sales and costs. 
-In addition, the geolocation_revised was merged with olist_customers_dataset to create order_locations.csv, for reviewing purchasing behaviors across regions of the country. At this time, analysis and machine learning will be performed on our three main datasets, the purchase_data.csv, order_locations.csv and the order_item_revised.csv.  This may change as our finding guide the research.
-The combined dataset has over 99,000 entries, we understand we will need to take a sample of this to continue with our analysis since this dataset is mega. For the assignment this week we randomly selected a sample of 150 entries from this merged dataset and that's what is reviewed in our Machine Learning portion.   
+### Using RDS on AWS with Jupyter notebooks
 
 
-[Product Sample Database](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Resources/Data_Cleaned/product_sample.csv)
+#### Step 1: Setting up the Database
 
 
-![Screenshot (371)](https://user-images.githubusercontent.com/78699521/127747399-f7e31ec6-1a79-48ed-a95d-301dfb8f8572.png)
+We used an AWS free tier template to create our RDS database on AWS. We learned that free templates are only available for Postgres 12 and higher versions.
 
 
-#### SQL Query 
+AWS![Uploading AWS.png…]()
 
 
-![Screenshot (365)](https://user-images.githubusercontent.com/78699521/127746947-1885d47b-b822-4bed-9fa0-e227a0e82c11.png)
+We made our database accessible from anywhere so it’s accessible outside of the default VPC.  
 
 
+#### Step 2: Create AWS server on postgres 
 
 
+Once the database was created on AWS, we created an AWS server with the name final_project on postgres. 
 
 
+<img width="488" alt="pic" src="https://user-images.githubusercontent.com/69255270/128648078-2d43df09-0a78-44b6-884f-45cc7aae1ad8.png">
 
+
+We used the schema we created before to create all the tables again and then join them using inner joins. 
+
+
+<img width="504" alt="query" src="https://user-images.githubusercontent.com/69255270/128648145-b29de563-386d-4b6b-a969-ff7773cf0fe8.png">
+
+
+The final joined database was imported to jupyter notebook and it has a total of 34 columns and 91,596 rows. 
+
+
+<img width="494" alt="info" src="https://user-images.githubusercontent.com/69255270/128648229-152faa16-4ece-4357-bcf1-63a9ae06c7db.png">
+
+
+#### Step 3: Simplifying our data (Machine Learning)
+
+
+We created a profile of our data to understand the relation between various features. We realized many features in our data did not affect the review score so we dropped those columns.  For example, features like "customer_city", "customer_state", "geolocation_lat","geolocation_lng", "customer_id", "order_purchase_timestamp", "order_approved_at", "order_delivered_carrier_date", "payment_sequential" were dropped.  
+
+
+<img width="487" alt="profiling" src="https://user-images.githubusercontent.com/69255270/128648277-acf13a84-8f81-4f39-ba30-4708d932d933.png">
+
+
+We confirmed our results by creating a correlation matrix:  
+
+
+<img width="449" alt="corelation_matrix" src="https://user-images.githubusercontent.com/69255270/128648339-d6a96522-5313-4f21-8970-263fec15bf38.png">
+
+
+Finally, we were left with the following columns in our data:
+
+
+- zipcode	order_status
+- price	freight_value	review_score	
+- payment_type	
+- payment_value	product_id	
+- product_photos_qty	
+- product_category	
+- seller_zip	
+- seller_state	
+- time_order_to_delivery	
+- time_estimate_to_delivery
+
+
+#### Step 4:  Feature Engineering (Machine Learning)
+
+
+We used the following methods to encode the catagorical variables:
+
+
+- lambda function
+- label encoder
+<img width="416" alt="feature engineering1" src="https://user-images.githubusercontent.com/69255270/128648449-1c0cfb08-ee1b-4c62-a8bf-4f86a8a4875c.png">
+<img width="423" alt="Feature engineering 2" src="https://user-images.githubusercontent.com/69255270/128648452-70e8facd-0a78-47fa-9e4b-453765c0a0aa.png">
+
+
+Our final data has 13 columns:
+
+
+<img width="550" alt="final" src="https://user-images.githubusercontent.com/69255270/128648468-b1c846a9-2f89-4b50-aed3-61a93f481c3a.png">
+
+
+#### Step 5: Importing CSV
+
+
+As a first step to connect with AWS database we imported our dataframe to csv file. 
+
+
+<img width="469" alt="CSV" src="https://user-images.githubusercontent.com/69255270/128648506-d0cfcfc7-532e-4516-a31f-8ac474355dc7.png">
+
+
+#### Step 6: Setting up a config file
+
+
+Once psycopg2 was imported, we created a config.py file to store the details for accessing our database. To connect, we needed the following details:
+
+
+- Endpoint
+- Port
+- Name
+- User’s Name
+- User’s Password
+
+
+#### Step 7: Connecting & Creating a table
+
+
+After importing psycopg2 and our config file, we created a function that connects to the database and sets up a cursor. This function uses our credentials from our config.py file to create the conn_string, and uses the conn_string to create the connection to our database hosted by AWS.
+
+
+<img width="421" alt="sql connection1" src="https://user-images.githubusercontent.com/69255270/128648577-848721ad-5c32-474a-9742-7ce50f94970a.png">
+
+
+#### Step 8: Create Table
+
+
+Once we had a connection and a cursor, we wrote SQL queries in Python. PostgreSQL queries from Python using the psycopg2 library need four elements:
+
+
+- Establish Connection
+- Establish Cursor
+- Execute Cursor
+- Commit Connection
+
+
+#### Step 9: Loading data into a Postgres table from CSV
+
+Once we had our tables, we copied data from CSV files with psycopg2 using the copy_from() method.
+
+
+<img width="417" alt="SQL connection 2" src="https://user-images.githubusercontent.com/69255270/128648687-d4cabb97-31e9-469e-b9a5-a65de3e4defc.png">
+
+
+#### Step 10: Importing data from AWS database to jupyter notebook for Machine Learning (Code included in the picture above)
+
+
+We used pandas to read in the SQL database to jupyter notebook.  We used the final_customers_sql file to create our machine learning models
+
+
+<img width="629" alt="SQL_todb" src="https://user-images.githubusercontent.com/69255270/128648778-1650ad90-d6b8-4676-bba9-5d850da1c7b2.png">
+
+## Machine Learning:
+#### Goal: To create a Machine Learning model to predict review score. We converted review score to binary variable by using the following code:
+
+![Picture1](https://user-images.githubusercontent.com/69255270/128654839-26c38bca-fbd0-4fe2-b73a-e6170dfd33b4.png)
+
+As our target variable is binary, we choose classification model.  We created 6 different models and compared their accuracy. Over all we got pretty good accuracy >85% for all the models we tested but Random forest performed the best for our data:
+1.	Linear Logistic Regression: We got accuracy of 88%. Logistic regression is easier to implement and interpret, and very efficient to train. But it is tough to obtain complex relationships using logistic regression and it over fits the model.
+2.	K-NN model: We were hoping to receive higher accuracy with K-NN but we got lower accuracy of 86% than logistic regression. One benefit of KNN algorithm is that it doesn’t require training before making predictions, new data can be added seamlessly which will not impact the accuracy of the algorithm.
+3.	Kernel SVM:Non Linear: We got accuracy of 87%
+4.	Decision Tree: We got accuracy of 95%. 7.	Decision Tree algorithm is very intuitive and easy to understand but a small change in the data can change the prediction big time.  
+5.	Ensemble: Random Forest: As this combines various decision tree models, it gave us the best value of accuracy of 96% . The Random Forest doesn’t over fit the model but it makes algorithms to run slow. 
+6.	Artificial Neural Network: We were hoping to get the highest accuracy with this one but it gave us accuracy of 87%. ANN can overfit the data and takes a lot of time to run.  
+
+Here is a graph that shows the comparison of all the models we tested:
+<img width="585" alt="comparison2" src="https://user-images.githubusercontent.com/69255270/128655194-c6e04018-5a05-4ef1-a5ad-aecde4a3dea4.png">
+
+
+## Dashboard
+
+
+Link to Story Board on [Google Slides](https://docs.google.com/presentation/d/1YUH8ro5pKktJKYCZNBRglaXnZXEQMiV8kwARAiLlti0/edit?usp=sharing) (begins on slide number 21)
+
+
+Link to Draft Story on [Tableau](https://10ay.online.tableau.com/t/ecommercetrends20162018/views/eCommerce_Draft/eCommerce_Draft_1?:showAppBanner=false&:origin=viz_share_link&:display_count=n&:showVizHome=n)
+
+
+For the Dashboard, we began working on Google slides and figuring out how our presentation would flow. We decided to tell our story with Google slides and show our final dashboard with Tableau. Since a couple of us will be working on Tableau, we started a free trial using Tableau Online so we can all download and edit the same files. 
+
+
+### Outline
+
+Our preliminary slides will show how we chose the topic of eCommerce Business Trends, where we gathered our data from, and topics of exploration.
+![Google slide pic](Dashreadwk2_pics/pres_slide1.png)
+
+For the Database portion, we will show how our database connects with the machine learning model in jupyter notebook and how we used SQL joins to create our final database. 
+![Google slide pic](Dashreadwk2_pics/pres_slide2.png)
+
+For the machine learning section we will show the results of our machine learning models, predictions, and which algorithm performed best. 
+
+
+### Storyboarding our dashboard:
+
+
+#### Questions we will address with our Dashboard (using Olist Sales Data from 2016-2018)
+
+
+* Did the number of sellers increase over time?
+* How did the number of sales by product category change over time?
+* How did customer review scores change over time?
+
+
+We will show this information with:
+
+
+Interactive elements:
+
+* line graphs that can be filtered by year 
+* Maps that can be filtered by customer review scores, product category,  and city
+
+
+Additional Ideas:
+
+
+* Review if the number of seller accounts have increased over time
+* And another dashboard for logistics
+    * how do logistics impact the buying and selling experience? 
