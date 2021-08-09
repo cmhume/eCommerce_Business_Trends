@@ -306,10 +306,10 @@ For the Dashboard, we began working on Google slides and figuring out how our pr
 ### Outline
 
 Our preliminary slides will show how we chose the topic of eCommerce Business Trends, where we gathered our data from, and topics of exploration.
-![Google slide pic](Dashreadwk2_pics/pres_slide1.png)
+![pres_slide1](https://user-images.githubusercontent.com/78699521/128658070-387c3fbc-ac64-44b5-b91a-f2101ee88efd.png)
 
 For the Database portion, we will show how our database connects with the machine learning model in jupyter notebook and how we used SQL joins to create our final database. 
-![Google slide pic](Dashreadwk2_pics/pres_slide2.png)
+![pres_slide2 (1)](https://user-images.githubusercontent.com/78699521/128658051-7baf75db-0c2e-42f3-acc4-80cf584eaf43.png)
 
 For the machine learning section we will show the results of our machine learning models, predictions, and which algorithm performed best. 
 
