@@ -253,21 +253,38 @@ We used pandas to read in the SQL database to jupyter notebook.  We used the fin
 <img width="629" alt="SQL_todb" src="https://user-images.githubusercontent.com/69255270/128648778-1650ad90-d6b8-4676-bba9-5d850da1c7b2.png">
 
 ## Machine Learning:
+
+
 #### Goal: To create a Machine Learning model to predict review score. We converted review score to binary variable by using the following code:
 
 ![Picture1](https://user-images.githubusercontent.com/69255270/128654839-26c38bca-fbd0-4fe2-b73a-e6170dfd33b4.png)
 
+
+#### (See Feature Engineering and Data Preprocessing for  Machine Learning in Database section above)
+
+
 **Description of how data was split into training and testing sets:**
 
-The goal of the training and testing sets is to create the machine learning model to predict review score. We took the review score and used it as a target column, then made it into y data. After that, we put x and y into training and testing to make X_train, X_test and y_train, and y_test. We split the data by making a 75/25 split where 25 is testing. X is everything except review score and y is review score.
+The goal of the training and testing sets is to create the machine learning model to predict review score. We took the review score and used it as a target column, then made it into y data. After that, we put x and y into training and testing to make X_train, X_test and y_train, and y_test. We split the data by making a 75/25 split where 25% of the data was used for testing. X is everything except review score and y is review score.
+
+**Explanation of Model Choice:**
+
+As our target variable is binary, we choose a classification model.  We created 6 different models and compared their accuracy. Over all we got pretty good accuracy >85% for all the models we tested but Random forest performed the best for our data:
 
 
-As our target variable is binary, we choose classification model.  We created 6 different models and compared their accuracy. Over all we got pretty good accuracy >85% for all the models we tested but Random forest performed the best for our data:
 1.	Linear Logistic Regression: We got accuracy of 88%. Logistic regression is easier to implement and interpret, and very efficient to train. But it is tough to obtain complex relationships using logistic regression and it over fits the model.
+
+
 2.	K-NN model: We were hoping to receive higher accuracy with K-NN but we got lower accuracy of 86% than logistic regression. One benefit of KNN algorithm is that it doesn’t require training before making predictions, new data can be added seamlessly which will not impact the accuracy of the algorithm.
+
+
 3.	Kernel SVM:Non Linear: We got accuracy of 87%
+
+
 4.	Decision Tree: We got accuracy of 95%. 7.	Decision Tree algorithm is very intuitive and easy to understand but a small change in the data can change the prediction big time.  
 5.	Ensemble: Random Forest: As this combines various decision tree models, it gave us the best value of accuracy of 96% . The Random Forest doesn’t over fit the model but it makes algorithms to run slow. 
+
+
 6.	Artificial Neural Network: We were hoping to get the highest accuracy with this one but it gave us accuracy of 87%. ANN can overfit the data and takes a lot of time to run.  
 
 Here is a graph that shows the comparison of all the models we tested:
