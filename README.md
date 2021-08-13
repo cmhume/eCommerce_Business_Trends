@@ -109,13 +109,23 @@ link to mock-up machine learning model
 
 ## Database
 
-To begin with this analysis we reviwed the different information that was provided by the six datasets we chose to work with. Using the Quick DAtabse Diagrams (Quick DBD) we were able to draw out our datasets using the Entity Realtionship Diagrams (ERD) and find the relation between all of them and mapped how we would merge our data to achieve the results we had set for ourselves. 
+
+We are using a PostgreSQL 11 server with the pgAdmin interface for our database.
+
+
+### ERD
+
+
+To begin with this analysis we reviewed the different information that was provided by the six datasets we chose to work with. Using the Quick Databse Diagrams (Quick DBD) we were able to draw out our datasets using the Entity Relationship Diagrams (ERD) and find the relation between all of them.  We then mapped how we would merge our data to achieve the results we had set for ourselves. 
+
 
 ![FP_ERD3](https://user-images.githubusercontent.com/78699521/127382944-ff63d2b2-e908-4af9-b303-53484415c826.png)
 
-### Cleaning files and creating tables
 
-To clean and merge datasets we used a combination of jupyter notebook/pandas and PostgresSQL/pgAdmin interface. As we tried to upload the datasets to pgAdmin we noticed they needed some light cleaning and removing of duplicate information. It was easier to do the cleaning in Jupyter Notebook, and such was used to clean geolocation dataset, olist_product_dataset, order_item_dataset, and olist_orders_dataset; this shrank our datasets with very few data lines still leaving us with thousands of entries to work with. After cleaning they were easily uploaded to postgres with new titles; geolocation_revies.csv, order_item_revised, order_list_revised, and product revised and we were able to merge some datasets to better fit our analysis. 
+### Cleaning csv files with pandas
+
+
+As we tried to upload the datasets to pgAdmin we noticed they needed some light cleaning and removing of duplicate information.  To clean and merge datasets we used a combination of jupyter notebook/pandas and PostgresSQL/pgAdmin interface.  It was easier to do the cleaning in Jupyter Notebook, and such was used to clean geolocation dataset, olist_product_dataset, order_item_dataset, and olist_orders_dataset.  This process shrank our datasets, still leaving us with thousands of entries to work with. After cleaning they were easily uploaded to postgres with new titles; geolocation_revies.csv, order_item_revised, order_list_revised, and product_revised.  We were then able to merge some datasets to better fit our analysis.  Below is a link to our data cleaning jupyter notebook and an example of the cleaning process on the geolocation dataset.
 
 [Jupyter Notebook](https://github.com/cmhume/eCommerce_Business_Trends/blob/Database/Geolocation_revised.ipynb)
 
@@ -123,7 +133,7 @@ To clean and merge datasets we used a combination of jupyter notebook/pandas and
 ![Screenshot (374)](https://user-images.githubusercontent.com/78699521/127747712-3ffa02c2-8c5d-47d6-b77b-02c6661d90ab.png)
 
 
-In regards to product analysis and sales we decided it would be optimal to merge product_revised with product_category_name_translation, order_item_revised, order_list_revised, and the olist_customers_dataset. Combining all these datasets with common information via inner joins were able to provide all we need in one dataset, who's ordering, what they're ordering, and where it's going to. Price of item and freight is also included for company to review sales and costs. 
+### Creating tables in SQL
 
 
 [Schema](https://github.com/cmhume/eCommerce_Business_Trends/blob/31305c1985f295618599131190d3154b92eb57e2/Wk__DB_orders.sql)
@@ -131,17 +141,23 @@ In regards to product analysis and sales we decided it would be optimal to merge
 
 ![Screenshot (372)](https://user-images.githubusercontent.com/78699521/127747331-f1bb587e-d59c-4443-b71a-6d2e2a3cdea7.png)
 
+
+### Joining tables in SQL
+
+
+We created the following product sample table in SQL and exported it as a csv file to test our mock-up machine learning model.  In this table, the product_name_translation was joined with the product_revised table on product_category_name, and additional joins with order_item and customer_id were also performed.  The joins are shown in more detail below, along with the created product_sample.csv file.   
+In regards to product analysis and sales we decided it would be optimal to merge product_revised with product_category_name_translation, order_item_revised, order_list_revised, and the olist_customers_dataset. With inner joins we were able to create one dataset with all the analysis information needed; who's ordering, what they're ordering, and where it's going to. Price of item and freight is also included for company to review sales and costs. 
+In addition, the geolocation_revised was merged with olist_customers_dataset to create order_locations.csv, for reviewing purchasing behaviors across regions of the country. At this time, analysis and machine learning will be performed on our three main datasets, the purchase_data.csv, order_locations.csv and the order_item_revised.csv.  This may change as our finding guide the research.
 The combined dataset has over 99,000 entries, we understand we will need to take a sample of this to continue with our analysis since this dataset is mega. For the assignment this week we randomly selected a sample of 150 entries from this merged dataset and that's what is reviewed in our Machine Learning portion.   
+
 
 [Product Sample Database](https://github.com/cmhume/eCommerce_Business_Trends/blob/31305c1985f295618599131190d3154b92eb57e2/product_sample.csv)
 
-In addition, the geolocation_revised was merged with olist_customers_dataset to create order_locations.csv, in order to review purchasing behaviors across regions of the country. At this time our 3 main datasets we would be using is the purchase_data.csv, order_locations.csv and the order_item_revised.csv but this can change as our finding guide the research.
 
 ![Screenshot (371)](https://user-images.githubusercontent.com/78699521/127747399-f7e31ec6-1a79-48ed-a95d-301dfb8f8572.png)
 
 
-
-
+#### SQL Query 
 
 
 ![Screenshot (365)](https://user-images.githubusercontent.com/78699521/127746947-1885d47b-b822-4bed-9fa0-e227a0e82c11.png)
