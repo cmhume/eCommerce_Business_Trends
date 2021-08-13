@@ -6,19 +6,19 @@ Each segment should be around 2 minutes long, 300 words or one page double space
 ## Elaine:
 *   Selected topic
 *   Reason the topic is selected
-*   Description of the source of data
-
+*   Technologies, languages, tools, and algorithms used throughout the project
 
 
 ## Manupriya:
+*   Description of the source of data
 *   Questions the team hopes to answer with the data
-*   Technologies, languages, tools, and algorithms used throughout the project
 *   Description of the data exploration phase of the project
 
 
 ## Luz:
 *   Description of the analysis phase of the project
 *   Results of the analysis
+*   Dashboard interactivity
 
 
 ## Corinne:
