@@ -85,7 +85,7 @@ With this data, we hope to answer...
 We used Postgres to create tables in SQL. The ERD below shows connectivity among 9 tables. 
 
 
-![FP_ERD3](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Resources/Schema/FP_ERD3.png)
+![QuickDBD-export](https://user-images.githubusercontent.com/78699521/129299255-6ad18afa-6ff2-4b3c-93e7-0658beb7d8d6.png)
 
 
 The description of these tables is as follows: 
