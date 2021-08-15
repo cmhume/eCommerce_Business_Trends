@@ -153,8 +153,7 @@ We confirmed our results by creating a correlation matrix:
 <img width="449" alt="corelation_matrix" src="https://user-images.githubusercontent.com/69255270/128648339-d6a96522-5313-4f21-8970-263fec15bf38.png">
 
 
-Finally, we were left with the following columns in our data:
-
+Finally, we decided to keeping the following columns in our data:
 
 - zipcode	order_status
 - price	freight_value	review_score	
@@ -170,36 +169,29 @@ Finally, we were left with the following columns in our data:
 
 #### Step 4:  Feature Engineering (Machine Learning)
 
-
 We used the following methods to encode the catagorical variables:
 
 
 - lambda function
 - label encoder
+- 
 <img width="416" alt="feature engineering1" src="https://user-images.githubusercontent.com/69255270/128648449-1c0cfb08-ee1b-4c62-a8bf-4f86a8a4875c.png">
 <img width="423" alt="Feature engineering 2" src="https://user-images.githubusercontent.com/69255270/128648452-70e8facd-0a78-47fa-9e4b-453765c0a0aa.png">
 
-
-Our final data has 13 columns:
-
+Our final data for machine learning has 13 columns:
 
 <img width="550" alt="final" src="https://user-images.githubusercontent.com/69255270/128648468-b1c846a9-2f89-4b50-aed3-61a93f481c3a.png">
 
 
 #### Step 5: Importing CSV
 
-
 As a first step to connect with AWS database we imported our dataframe to csv file. 
-
 
 <img width="469" alt="CSV" src="https://user-images.githubusercontent.com/69255270/128648506-d0cfcfc7-532e-4516-a31f-8ac474355dc7.png">
 
-
 #### Step 6: Setting up a config file
 
-
 Once psycopg2 was imported, we created a config.py file to store the details for accessing our database. To connect, we needed the following details:
-
 
 - Endpoint
 - Port
@@ -210,32 +202,24 @@ Once psycopg2 was imported, we created a config.py file to store the details for
 
 #### Step 7: Connecting & Creating a table
 
-
 After importing psycopg2 and our config file, we created a function that connects to the database and sets up a cursor. This function uses our credentials from our config.py file to create the conn_string, and uses the conn_string to create the connection to our database hosted by AWS.
-
 
 <img width="421" alt="sql connection1" src="https://user-images.githubusercontent.com/69255270/128648577-848721ad-5c32-474a-9742-7ce50f94970a.png">
 
-
 #### Step 8: Create Table
 
-
 Once we had a connection and a cursor, we wrote SQL queries in Python. PostgreSQL queries from Python using the psycopg2 library need four elements:
-
 
 - Establish Connection
 - Establish Cursor
 - Execute Cursor
 - Commit Connection
 
-
 #### Step 9: Loading data into a Postgres table from CSV
 
 Once we had our tables, we copied data from CSV files with psycopg2 using the copy_from() method.
 
-
 <img width="417" alt="SQL connection 2" src="https://user-images.githubusercontent.com/69255270/128648687-d4cabb97-31e9-469e-b9a5-a65de3e4defc.png">
-
 
 #### Step 10: Importing data from AWS database to jupyter notebook for Machine Learning (Code included in the picture above)
 
