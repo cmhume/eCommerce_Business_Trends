@@ -333,4 +333,4 @@ Additional Ideas:
 
 * Review if the number of seller accounts have increased over time
 * And another dashboard for logistics
-    * how do logistics impact the buying and selling experience? 
+    * how do logistics impact the buying and selling experience?
