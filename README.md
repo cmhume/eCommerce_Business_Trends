@@ -57,20 +57,6 @@ With this data, we hope to answer...
 - **Google Drive:** To add websites with data, brainstorm topics to choose from, and share our files for the project
 
 
-#### Debugging Session:
-
-
-* Every Wednesday we will discuss challenges and try to debug issues together.
-
-
-#### Merging work to main branch
-
-
-* We will post on slack before merging to the main branch and after creating new branches.
-
-
-* On Sundays at 7pm, we will check in on Slack to review our GitHub page before turning in the assignment on Canvas.  
-
 
 ## Database
 
