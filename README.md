@@ -4,22 +4,22 @@
 ### Group Members
 
 
-Elaine Ng - Machine Learning Model (Square role), Branches: [Elaine](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine), [technology.md](https://github.com/cmhume/eCommerce_Business_Trends/tree/technology.md), [Machine_Learning](https://github.com/cmhume/eCommerce_Business_Trends/tree/Machine_Learning), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Machine_Learning_Elaine.md)
+Elaine Ng - Complete peer reviews on the code (Square role), Branches: [Elaine](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine), [technology.md](https://github.com/cmhume/eCommerce_Business_Trends/tree/technology.md), [Machine_Learning](https://github.com/cmhume/eCommerce_Business_Trends/tree/Machine_Learning), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Machine_Learning_Elaine.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3)
 
 
-Luz Maria Cabral - Dashboard (X role), Branches: [Luz](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Dashboard_Luz.md)
+Luz Maria Cabral - Dashboard: Create a dashboard to display your findings (Circle role), Branches: [Luz](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Dashboard_Luz.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3)
 
 
-Manupriya Sharma - Database (Triangle role), Branches: [Manupriya](https://github.com/cmhume/eCommerce_Business_Trends/tree/Manupriya), [Database](https://github.com/cmhume/eCommerce_Business_Trends/tree/Database), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Database_Manupriya.md)
+Manupriya Sharma - Perform a quality assurance check on project deliverables against rubric requirements, and test the code (X role), Branches: [Manupriya](https://github.com/cmhume/eCommerce_Business_Trends/tree/Manupriya), [Database](https://github.com/cmhume/eCommerce_Business_Trends/tree/Database), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Database_Manupriya.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3)
 
 
-Corinne Hume - Visual (Circle role), Branches: [Corinne](https://github.com/cmhume/eCommerce_Business_Trends/tree/Corinne), [visuals_wk2](https://github.com/cmhume/eCommerce_Business_Trends/tree/visuals_wk2), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/edit/readme_wk2)
+Corinne Hume - Create a draft presentation to share with your class (Triangle role), Branches: [Corinne](https://github.com/cmhume/eCommerce_Business_Trends/tree/Corinne), [visuals_wk2](https://github.com/cmhume/eCommerce_Business_Trends/tree/visuals_wk2), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/edit/readme_wk2), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3)
 
 
 ## Presentation
 
 
-Link to [Google Slides](https://docs.google.com/presentation/d/1YUH8ro5pKktJKYCZNBRglaXnZXEQMiV8kwARAiLlti0/edit?usp=sharing)
+Link to [Google Slides](https://docs.google.com/presentation/d/1i0Znvf8fqon94xzfKeM4TORzG9IobtLutqnbttMPqDc/edit?usp=sharing)
 
 
 ### Project 
@@ -47,13 +47,6 @@ With this data, we hope to answer...
 - What is the ordering behavior for consumers in each geographical region?
 - What type of products would a company expect to buy more of depending on the season?
 - Analyse reviews and develop predictive model based on the given parameters. 
-
-
-### Communication Protocol
-
-
-* We will coordinate and communicate through Slack and Zoom. Our team will meet on Zoom every Monday, Wednesday and Thursday. 
-
 
 #### Planning Meeting:
 
@@ -85,7 +78,7 @@ With this data, we hope to answer...
 We used Postgres to create tables in SQL. The ERD below shows connectivity among 9 tables. 
 
 
-![QuickDBD-export](https://user-images.githubusercontent.com/78699521/129402356-af01ea8a-ee90-45ad-9adc-b87db9278f4c.png)
+![FP_ERD3](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Resources/Schema/FP_ERD3.png)
 
 
 The description of these tables is as follows: 
