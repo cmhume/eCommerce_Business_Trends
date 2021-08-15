@@ -4,8 +4,7 @@
 ### Group Members
 
 
-Elaine Ng - Complete peer reviews on the code (Square role), Branches: [Elaine](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine), [technology.md](https://github.com/cmhume/eCommerce_Business_Trends/tree/technology.md), [Machine_Learning](https://github.com/cmhume/eCommerce_Business_Trends/tree/Machine_Learning), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Machine_Learning_Elaine.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3)
-
+Elaine Ng - Complete peer reviews on the code (Square role), Branches: [Elaine](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine), [technology.md](https://github.com/cmhume/eCommerce_Business_Trends/tree/technology.md), [Machine_Learning](https://github.com/cmhume/eCommerce_Business_Trends/tree/Machine_Learning), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk2/Machine_Learning_Elaine.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3)
 
 Luz Maria Cabral - Dashboard (Circle role), Branches: [Luz](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Dashboard_Luz.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3)
 
