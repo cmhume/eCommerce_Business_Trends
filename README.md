@@ -4,7 +4,7 @@
 ### Group Members
 
 
-Elaine Ng - Peer reviews on the code (Square role), Branches: [Elaine](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine), [technology.md](https://github.com/cmhume/eCommerce_Business_Trends/tree/technology.md), [Machine_Learning](https://github.com/cmhume/eCommerce_Business_Trends/tree/Machine_Learning), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk2/Machine_Learning_Elaine.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3)
+Elaine Ng - Peer reviews on code (Square role), Branches: [Elaine](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine), [technology.md](https://github.com/cmhume/eCommerce_Business_Trends/tree/technology.md), [Machine_Learning](https://github.com/cmhume/eCommerce_Business_Trends/tree/Machine_Learning), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/README.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3), [.gitignore](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/.gitignore), [requirements.txt](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/requirements.txt)
 
 
 Luz Maria Cabral - Dashboard (Circle role), Branches: [Luz](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Dashboard_Luz.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/Luz_dashboard_readme_wk3)
@@ -78,7 +78,7 @@ With this data, we hope to answer...
 We used Postgres to create tables in SQL. The ERD below shows connectivity among 9 tables. 
 
 
-![FP_ERD3](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Resources/Schema/FP_ERD3.png)
+![QuickDBD-export (1)](https://user-images.githubusercontent.com/79742633/129489813-9152f9d2-ec14-4ce4-8965-bfbfe5d3ca45.png)
 
 
 The description of these tables is as follows: 
