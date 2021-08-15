@@ -13,7 +13,7 @@ Luz Maria Cabral - Dashboard (Circle role), Branches: [Luz](https://github.com/c
 Manupriya Sharma - Quality Assurance and test the code (X role), Branches: [Manupriya](https://github.com/cmhume/eCommerce_Business_Trends/tree/Manupriya), [Database](https://github.com/cmhume/eCommerce_Business_Trends/tree/Database), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Database_Manupriya.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/Manupriya_ML_readme_wk3)
 
 
-Corinne Hume - Draft presentation (Triangle role), Branches: [Corinne](https://github.com/cmhume/eCommerce_Business_Trends/tree/Corinne), [presentation_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/presentation_wk3), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3)
+Corinne Hume - Draft presentation (Triangle role), Branches: [Corinne](https://github.com/cmhume/eCommerce_Business_Trends/tree/Corinne), [visuals_wk2](https://github.com/cmhume/eCommerce_Business_Trends/tree/visuals_wk2), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/edit/readme_wk2), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3)
 
 
 ## Presentation
@@ -246,28 +246,44 @@ The goal of the training and testing sets is to create the machine learning mode
 
 <img width="664" alt="training_testing_split" src="https://user-images.githubusercontent.com/79742633/128658004-72f09d48-8437-45ab-bea9-1b87afb9f2e5.png">
 
-**Explanation of Model Choice:**
+**Resampling**
 
-As our target variable is binary, we choose a classification model.  We created 6 different models and compared their accuracy. Over all we got pretty good accuracy >85% for all the models we tested but Random forest performed the best for our data:
+Our data has more positive reviews than negative reviews, as the pie chart below shows. 
 
+<img width="144" alt="pie chart" src="https://user-images.githubusercontent.com/69255270/129483263-840225aa-a0a3-4e26-89c7-e3373dc3fba9.png">
 
-1.	Linear Logistic Regression: We got accuracy of 88%. Logistic regression is easier to implement and interpret, and very efficient to train. But it is tough to obtain complex relationships using logistic regression and it over fits the model.
+We used Random undersampling to resample our data  using the follwoing code:
 
+<img width="363" alt="resample" src="https://user-images.githubusercontent.com/69255270/129484445-eb68ff20-47a8-493c-89d6-ee92954d699f.png">
 
-2.	K-NN model: We were hoping to receive higher accuracy with K-NN but we got lower accuracy of 86% than logistic regression. One benefit of KNN algorithm is that it doesn’t require training before making predictions, new data can be added seamlessly which will not impact the accuracy of the algorithm.
+**Model Choice:**
 
-
-3.	Kernel SVM:Non Linear: We got accuracy of 87%
-
-
-4.	Decision Tree: We got accuracy of 95%. 7.	Decision Tree algorithm is very intuitive and easy to understand but a small change in the data can change the prediction big time.  
-5.	Ensemble: Random Forest: As this combines various decision tree models, it gave us the best value of accuracy of 96% . The Random Forest doesn’t over fit the model but it makes algorithms to run slow. 
+As our target variable is binary, we choose a classification model.  We created 5 different models and compared their accuracies. We got accuracy >70% for all the models except for Artificial Neural Network that gave us only 50% of accuracy. Random forest performed the best for our data:
 
 
-6.	Artificial Neural Network: We were hoping to get the highest accuracy with this one but it gave us accuracy of 87%. ANN can overfit the data and takes a lot of time to run.  
+1.	Linear Logistic Regression: We got accuracy of 74%. Logistic regression is easier to implement and interpret, and very efficient to train. But it is tough to obtain complex relationships using logistic regression and it over fits the model.
 
+
+2.	K-NN model: We were hoping to receive higher accuracy with K-NN but we got lower accuracy of 67% than logistic regression. One benefit of KNN algorithm is that it doesn’t require training before making predictions, new data can be added seamlessly which will not impact the accuracy of the algorithm.
+
+3. Decision Tree: We got accuracy of ~92%. Decision Tree algorithm is very intuitive and easy to understand but a small change in the data can change the prediction big time. 
+
+4. Ensemble-Random Forest: As this combines various decision tree models, it gave us the best value of accuracy of 94% . The Random Forest doesn’t over fit the model but it makes algorithms to run slow. 
+
+5. Artificial Neural Network: We were hoping to get the highest accuracy with this one but it gave us accuracy of 50%. ANN can overfit the data and takes a lot of time to run.  
 Here is a graph that shows the comparison of all the models we tested:
-<img width="585" alt="comparison2" src="https://user-images.githubusercontent.com/69255270/128655194-c6e04018-5a05-4ef1-a5ad-aecde4a3dea4.png">
+
+<img width="635" alt="model comparison" src="https://user-images.githubusercontent.com/69255270/129485488-1cb04e3a-ef6f-4786-a417-3be2fb8b9f4e.png">
+
+
+
+## Feature Importance
+We used Random Forest feature importance technique to find importance score to input features based on how useful they are at predicting a target variable. As the picture below shows that the most important feature is the "time estimate to divery" which is the differnce between estimate divery date and actual delivery date and the least important feature is the "payment type".
+
+<img width="143" alt="feature importance score" src="https://user-images.githubusercontent.com/69255270/129485262-89107265-bbb4-41b4-b1f7-577047ec76d4.png">
+
+<img width="380" alt="feature importance" src="https://user-images.githubusercontent.com/69255270/129485131-f4993795-1415-4ad0-a46b-4970b943e91e.png">
+
 
 
 ## Dashboard
