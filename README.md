@@ -280,8 +280,6 @@ Here is a graph that shows the comparison of all the models we tested:
 ## Feature Importance
 We used Random Forest feature importance technique to find importance score to input features based on how useful they are at predicting a target variable. As the picture below shows that the most important feature is the "time estimate to divery" which is the differnce between estimate divery date and actual delivery date and the least important feature is the "payment type".
 
-<img width="143" alt="feature importance score" src="https://user-images.githubusercontent.com/69255270/129485262-89107265-bbb4-41b4-b1f7-577047ec76d4.png">
-
 <img width="380" alt="feature importance" src="https://user-images.githubusercontent.com/69255270/129485131-f4993795-1415-4ad0-a46b-4970b943e91e.png">
 
 
