@@ -264,13 +264,8 @@ We used Random Forest feature importance technique (as Random Forest has the max
 ## Dashboard
 
 
-Link to Story Board on [Google Slides](https://docs.google.com/presentation/d/1i0Znvf8fqon94xzfKeM4TORzG9IobtLutqnbttMPqDc/edit?usp=sharing)
+Link to dashboard on [Google Slides](https://docs.google.com/presentation/d/1i0Znvf8fqon94xzfKeM4TORzG9IobtLutqnbttMPqDc/edit?usp=sharing)
 
-
-Link to Draft Story on [Tableau](https://10ay.online.tableau.com/t/ecommercetrends20162018/views/eCommerce_Draft/eCommerce_Draft_1?:showAppBanner=false&:origin=viz_share_link&:display_count=n&:showVizHome=n)
-
-
-For the Dashboard, we began working on Google slides and figuring out how our presentation would flow. We decided to tell our story with Google slides and show our final dashboard with Tableau. Since a couple of us will be working on Tableau, we started a free trial using Tableau Online so we can all download and edit the same files. 
 
 This report starts by telling the story of Olist, how they began, where there customers are at, what products sell the most and 
 ways to improve their services. Olist is a company that begins its online presence in the Fall of 2016 and builds a robust presence 
@@ -300,27 +295,6 @@ items may not be as easy as delivering smaller items. Most of our machine learni
 as well. The logistics might be different. For this reason we also reviewed freight costs and services. 
 
 
-### Outline
-
-Our preliminary slides will show how we chose the topic of eCommerce Business Trends, where we gathered our data from, and topics of exploration.
-![pres_slide1](https://user-images.githubusercontent.com/78699521/128658070-387c3fbc-ac64-44b5-b91a-f2101ee88efd.png)
-
-For the Database portion, we will show how our database connects with the machine learning model in jupyter notebook and how we used SQL joins to create our final database. 
-![pres_slide2 (1)](https://user-images.githubusercontent.com/78699521/128658051-7baf75db-0c2e-42f3-acc4-80cf584eaf43.png)
-
-For the machine learning section we will show the results of our machine learning models, predictions, and which algorithm performed best. 
-
-
-### Storyboarding our dashboard:
-
-
-#### Questions we will address with our Dashboard (using Olist Sales Data from 2016-2018)
-
-
-* Did the number of sellers increase over time?
-* How did the number of sales by product category change over time?
-* How did customer review scores change over time?
-
 
 We will show this information with:
 
@@ -329,11 +303,3 @@ Interactive elements:
 
 * line graphs that can be filtered by year 
 * Maps that can be filtered by customer review scores, product category,  and city
-
-
-Additional Ideas:
-
-
-* Review if the number of seller accounts have increased over time
-* And another dashboard for logistics
-    * how do logistics impact the buying and selling experience?
