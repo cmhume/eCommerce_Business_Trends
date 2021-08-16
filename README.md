@@ -208,7 +208,7 @@ We used pandas to read in the SQL database to jupyter notebook.  We used the fin
 <img width="629" alt="SQL_todb" src="https://user-images.githubusercontent.com/69255270/128648778-1650ad90-d6b8-4676-bba9-5d850da1c7b2.png">
 
 ## Machine Learning:
-
+[Link to Machine Learning jupyter notebook](https://github.com/cmhume/eCommerce_Business_Trends/blob/f8f44e6809cccd2e409a8839d7495d894fcb530e/Machine_Learning/ecommerce_business_trend_ML_feature_importance.ipynb)
 
 #### Goal: To create a Machine Learning model to predict review score. We converted review score to binary variable by using the following code:
 
