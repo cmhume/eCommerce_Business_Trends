@@ -268,7 +268,7 @@ We used Streamlit to create an interactive web app to predict the review score f
 ## Dashboard
 
 
-Link to Story Board on [Google Slides](https://docs.google.com/presentation/d/1i0Znvf8fqon94xzfKeM4TORzG9IobtLutqnbttMPqDc/edit?usp=sharing)
+Link to dashboard on [Google Slides](https://docs.google.com/presentation/d/1i0Znvf8fqon94xzfKeM4TORzG9IobtLutqnbttMPqDc/edit?usp=sharing)
 
 
 This report starts by telling the story of Olist, how they began, where there customers are at, what products sell the most and 
