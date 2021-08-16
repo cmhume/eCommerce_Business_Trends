@@ -272,7 +272,6 @@ Link to Draft Story on [Tableau](https://10ay.online.tableau.com/t/ecommercetren
 
 For the Dashboard, we began working on Google slides and figuring out how our presentation would flow. We decided to tell our story with Google slides and show our final dashboard with Tableau. Since a couple of us will be working on Tableau, we started a free trial using Tableau Online so we can all download and edit the same files. 
 
-# The Dashboard
 This report starts by telling the story of Olist, how they began, where there customers are at, what products sell the most and 
 ways to improve their services. Olist is a company that begins its online presence in the Fall of 2016 and builds a robust presence 
 in 2017 and 2018. We review the products that they help distribute and how they're performing around the country. As part of their 
