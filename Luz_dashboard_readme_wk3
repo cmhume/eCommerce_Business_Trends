@@ -1,0 +1,28 @@
+# The Dashboard
+This report starts by telling the story of Olist, how they began, where there customers are at, what products sell the most and 
+ways to improve their services. Olist is a company that begins its online presence in the Fall of 2016 and builds a robust presence 
+in 2017 and 2018. We review the products that they help distribute and how they're performing around the country. As part of their 
+quality control review they send out surveys for feedback on their services, we were able to use their star rating to see how customers
+felt about the services provided. Finally part of the service Olist provides is logistics and delivery is largely discussed in these
+reviews, we attempt to draw this picture in our visualizations.
+
+## Visualization Tools
+The team decided to move forward with Tableau for our dashboard needs. The data, as previously described, was cleaned, merged and 
+further processed via Python, postgresSQL, and AWS. The dataset that we've been working with include some of the changes made for 
+the machine learning models, changing strings into integers. Also, in assistance to our Tableau learning journey, aside from the 
+module, were youtube videos for guidance on connecting worksheets for interactive connections and overlapping maps to demonstrate
+the data. 
+
+## Sales Dashboard
+!(Sales Dashboard)[Dashboard/Olist_Sales_Review.png]
+
+In this board we see the popularity of items being sold on Olist, most popular item are home goods and least popular are security
+services. We used cluster or bubble chart to review this and a map to locate places where these items were sold most frequently. 
+
+## Review Dashboard
+![Review_Dashboard](Dashboard/Category_Review_Dashboard.png)
+The next dashboard illustrates the reviews and how most categories were rated. Overall Olist provides a good service with most 
+items receiving reviews of 3.5 and greater. There are negative reviews and there will be seen in areas where delivering large ticket
+items may not be as easy as delivering smaller items. Most of our machine learning visualizations and results are located in this frame
+as well. The logistics might be different. For this reason we also reviewed freight costs and services. 
+
