@@ -271,6 +271,9 @@ We used Streamlit to create an interactive web app to predict the review score f
 Link to dashboard on [Google Slides](https://docs.google.com/presentation/d/1i0Znvf8fqon94xzfKeM4TORzG9IobtLutqnbttMPqDc/edit?usp=sharing)
 
 
+[Link to video of dashboard interactivity](https://drive.google.com/file/d/1j4lY__ZRvh5D1mSSov30nQ8UTuH0VBjq/view?usp=sharing)
+
+
 This report starts by telling the story of Olist, how they began, where there customers are at, what products sell the most and 
 ways to improve their services. Olist is a company that begins its online presence in the Fall of 2016 and builds a robust presence 
 in 2017 and 2018. We review the products that they help distribute and how they're performing around the country. As part of their 
