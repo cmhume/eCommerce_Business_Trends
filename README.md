@@ -4,7 +4,7 @@
 ### Group Members
 
 
-Elaine Ng - Peer reviews on the code (Square role), Branches: [Elaine](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine), [technology.md](https://github.com/cmhume/eCommerce_Business_Trends/tree/technology.md), [Machine_Learning](https://github.com/cmhume/eCommerce_Business_Trends/tree/Machine_Learning), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk2/Machine_Learning_Elaine.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3)
+Elaine Ng - Peer reviews on code (Square role), Branches: [Elaine](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine), [technology.md](https://github.com/cmhume/eCommerce_Business_Trends/tree/technology.md), [Machine_Learning](https://github.com/cmhume/eCommerce_Business_Trends/tree/Machine_Learning), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/README.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3), [.gitignore](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/.gitignore), [requirements.txt](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/requirements.txt)
 
 
 Luz Maria Cabral - Dashboard (Circle role), Branches: [Luz](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Dashboard_Luz.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/Luz_dashboard_readme_wk3)
@@ -48,29 +48,6 @@ With this data, we hope to answer...
 - What type of products would a company expect to buy more of depending on the season?
 - Analyse reviews and develop predictive model based on the given parameters. 
 
-#### Planning Meeting:
-
-
-* Every Monday we will meet to plan the deliverables and responsibilities for the entire week. Everyone will work on their branch or feature branch on Github.
-
-
-- **Google Drive:** To add websites with data, brainstorm topics to choose from, and share our files for the project
-
-
-#### Debugging Session:
-
-
-* Every Wednesday we will discuss challenges and try to debug issues together.
-
-
-#### Merging work to main branch
-
-
-* We will post on slack before merging to the main branch and after creating new branches.
-
-
-* On Sundays at 7pm, we will check in on Slack to review our GitHub page before turning in the assignment on Canvas.  
-
 
 ## Database
 
@@ -78,7 +55,7 @@ With this data, we hope to answer...
 We used Postgres to create tables in SQL. The ERD below shows connectivity among 9 tables. 
 
 
-![FP_ERD3](https://github.com/cmhume/eCommerce_Business_Trends/blob/316e955522d8b579456a33c4dd14e87809000155/Resources/Schema/FP_ERD3.png)
+![QuickDBD-export (1)](https://user-images.githubusercontent.com/79742633/129489813-9152f9d2-ec14-4ce4-8965-bfbfe5d3ca45.png)
 
 
 The description of these tables is as follows: 
@@ -278,7 +255,7 @@ Here is a graph that shows the comparison of all the models we tested:
 
 
 ## Feature Importance
-We used Random Forest feature importance technique to find importance score to input features based on how useful they are at predicting a target variable. As the picture below shows that the most important feature is the "time estimate to divery" which is the differnce between estimate divery date and actual delivery date and the least important feature is the "payment type".
+We used Random Forest feature importance technique (as Random Forest has the maximum accuracy ~94% among the all models we tried to find importance score to input features based on how useful they are at predicting a target variable. As the picture below shows that the most important feature is the "time estimate to delivery" which is the differnce between estimate delivery date and actual delivery date and the least important feature is the "order status".
 
 <img width="380" alt="feature importance" src="https://user-images.githubusercontent.com/69255270/129485131-f4993795-1415-4ad0-a46b-4970b943e91e.png">
 
@@ -287,13 +264,41 @@ We used Random Forest feature importance technique to find importance score to i
 ## Dashboard
 
 
-Link to Story Board on [Google Slides](https://docs.google.com/presentation/d/1YUH8ro5pKktJKYCZNBRglaXnZXEQMiV8kwARAiLlti0/edit?usp=sharing) (begins on slide number 21)
+Link to Story Board on [Google Slides](https://docs.google.com/presentation/d/1i0Znvf8fqon94xzfKeM4TORzG9IobtLutqnbttMPqDc/edit?usp=sharing)
 
 
 Link to Draft Story on [Tableau](https://10ay.online.tableau.com/t/ecommercetrends20162018/views/eCommerce_Draft/eCommerce_Draft_1?:showAppBanner=false&:origin=viz_share_link&:display_count=n&:showVizHome=n)
 
 
 For the Dashboard, we began working on Google slides and figuring out how our presentation would flow. We decided to tell our story with Google slides and show our final dashboard with Tableau. Since a couple of us will be working on Tableau, we started a free trial using Tableau Online so we can all download and edit the same files. 
+
+# The Dashboard
+This report starts by telling the story of Olist, how they began, where there customers are at, what products sell the most and 
+ways to improve their services. Olist is a company that begins its online presence in the Fall of 2016 and builds a robust presence 
+in 2017 and 2018. We review the products that they help distribute and how they're performing around the country. As part of their 
+quality control review they send out surveys for feedback on their services, we were able to use their star rating to see how customers
+felt about the services provided. Finally part of the service Olist provides is logistics and delivery is largely discussed in these
+reviews, we attempt to draw this picture in our visualizations.
+
+## Visualization Tools
+The team decided to move forward with Tableau for our dashboard needs. The data, as previously described, was cleaned, merged and 
+further processed via Python, postgresSQL, and AWS. The dataset that we've been working with include some of the changes made for 
+the machine learning models, changing strings into integers. Also, in assistance to our Tableau learning journey, aside from the 
+module, were youtube videos for guidance on connecting worksheets for interactive connections and overlapping maps to demonstrate
+the data. 
+
+## Sales Dashboard
+!(Sales Dashboard)[Dashboard/Olist_Sales_Review.png]
+
+In this board we see the popularity of items being sold on Olist, most popular item are home goods and least popular are security
+services. We used cluster or bubble chart to review this and a map to locate places where these items were sold most frequently. 
+
+## Review Dashboard
+![Review_Dashboard](Dashboard/Category_Review_Dashboard.png)
+The next dashboard illustrates the reviews and how most categories were rated. Overall Olist provides a good service with most 
+items receiving reviews of 3.5 and greater. There are negative reviews and there will be seen in areas where delivering large ticket
+items may not be as easy as delivering smaller items. Most of our machine learning visualizations and results are located in this frame
+as well. The logistics might be different. For this reason we also reviewed freight costs and services. 
 
 
 ### Outline
