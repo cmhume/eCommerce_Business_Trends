@@ -287,7 +287,7 @@ module, were youtube videos for guidance on connecting worksheets for interactiv
 the data. 
 
 ## Sales Dashboard
-!(Sales Dashboard)[Dashboard/Olist_Sales_Review.png]
+![Olist Sales Review](https://user-images.githubusercontent.com/79742633/129506408-da6dab4b-1c0f-4544-a715-e004e2b8b4c5.png)
 
 In this board we see the popularity of items being sold on Olist, most popular item are home goods and least popular are security
 services. We used cluster or bubble chart to review this and a map to locate places where these items were sold most frequently. 
