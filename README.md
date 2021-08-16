@@ -264,7 +264,7 @@ Here is a graph that shows the comparison of all the models we tested:
 
 
 ## Feature Importance
-We used Random Forest feature importance technique (as Random Forest has the maximum accuracy ~94% among the all models we tried to find importance score to input features based on how useful they are at predicting a target variable. As the picture below shows that the most important feature is the "time estimate to divery" which is the differnce between estimate delivery date and actual delivery date and the least important feature is the "order status".
+We used Random Forest feature importance technique (as Random Forest has the maximum accuracy ~94% among the all models we tried to find importance score to input features based on how useful they are at predicting a target variable. As the picture below shows that the most important feature is the "time estimate to delivery" which is the differnce between estimate delivery date and actual delivery date and the least important feature is the "order status".
 
 <img width="380" alt="feature importance" src="https://user-images.githubusercontent.com/69255270/129485131-f4993795-1415-4ad0-a46b-4970b943e91e.png">
 
