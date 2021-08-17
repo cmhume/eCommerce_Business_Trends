@@ -19,23 +19,26 @@ Intro:  Slides 1-5
 
 Dashboards: Slides 7, 10, Tableau Dashboards
 
-*   Description of the analysis phase of the project
-*   Results of the analysis
+
+*   Questions the team hopes to answer with the data
+*   Analysis process & Results
 *   Dashboard interactivity
 
 
 ## Manupriya:
 
 
-Machine Learning app:
+Machine Learning app: Slides 21-25
 
 *   Technologies, languages, tools, and algorithms used throughout the project
-*   Questions the team hopes to answer with the data
+
 *   Description of the data exploration phase of the project
 
 
 ## Corinne:
 
+
+Conclusions, Q & A: Slides 26-28
 
 *   Recommendation for future analysis
 *   Anything the team would have done differently
