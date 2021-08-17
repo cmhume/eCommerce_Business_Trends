@@ -30,9 +30,9 @@ Dashboards: Slides 7, 10, Tableau Dashboards
 
 Machine Learning app: Slides 21-25
 
-*   Technologies, languages, tools, and algorithms used throughout the project
-
-*   Description of the data exploration phase of the project
+*   Random Forest Machine Learning Model, features of importance
+*   How machine learning was used in review score prediction app
+*   prediction app demo
 
 
 ## Corinne:
@@ -42,3 +42,4 @@ Conclusions, Q & A: Slides 26-28
 
 *   Recommendation for future analysis
 *   Anything the team would have done differently
+*   Q & A
