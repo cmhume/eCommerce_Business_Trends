@@ -1,4 +1,4 @@
-# Presentation Roles (preliminary)
+# Presentation Roles 
 
 
 Each segment should be around 2 minutes long, 300 words or one page double spaced.  There will be about 2-4 slides per person, aiming for around 12 slides in presentation + the dashboard, total length 8-10 minutes.
