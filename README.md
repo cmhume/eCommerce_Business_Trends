@@ -20,7 +20,7 @@ Corinne Hume - Draft presentation (Triangle role), Branches: [Corinne](https://g
 ## Presentation
 
 
-Link to [Google Slides](https://docs.google.com/presentation/d/1i0Znvf8fqon94xzfKeM4TORzG9IobtLutqnbttMPqDc/edit?usp=sharing)
+Link to [Google Slides](https://docs.google.com/presentation/d/123g32q7Y1Ol1Q0KDGNYB0UI2wL3trsAx_ia_VTf3Q0E/edit?usp=sharing)
 
 
 ### Project 
@@ -268,7 +268,7 @@ We used Streamlit to create an interactive web app to predict the review score f
 ## Dashboard
 
 
-Link to dashboard on [Google Slides](https://docs.google.com/presentation/d/1i0Znvf8fqon94xzfKeM4TORzG9IobtLutqnbttMPqDc/edit?usp=sharing)
+Link to dashboard on [Google Slides](https://docs.google.com/presentation/d/123g32q7Y1Ol1Q0KDGNYB0UI2wL3trsAx_ia_VTf3Q0E/edit?usp=sharing)
 
 
 [Link to video of dashboard interactivity](https://drive.google.com/file/d/1j4lY__ZRvh5D1mSSov30nQ8UTuH0VBjq/view?usp=sharing)
