@@ -34,7 +34,7 @@ In this project, we will analyze customer orders placed between 2016-2018 from s
 
 **Why we selected our topic:** 
 
-We selected this topic because of the analysis options available from eCommerce data, with information available on customers, sellers, products and geographic regions.  We would like to know if consumer behavior differs between customer's geographic location and if future purchases could be predicted using geolocation data. We would also like to know what products are likely to be purchased depending on the time of year.  Our ultimate goal is to predict consumer behavior from this dataset using machine learning.
+We chose this topic because this dataset has a range of information and analysis options available from eCommerce data and the potential it has to make predictions with machine learning models, with the information available on customers, sellers, products and geographic regions. This dataset also gave us the opportunity to use SQL joins to create new tables where we joined it on a PostgreSQL server. Our ultimate goal is to predict consumer behavior and review score from this dataset by using machine learning.
 
 **Description of our source of data:**
 
