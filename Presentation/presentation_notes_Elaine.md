@@ -1,4 +1,4 @@
-## Elaine:
+## Elaine Ng:
 
 
 Intro:  Slides 2-5
