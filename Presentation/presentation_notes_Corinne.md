@@ -1,4 +1,4 @@
-## Corinne:
+## Corinne Hume:
 
 
 ### Conclusions, Q & A: Slides 13-16
