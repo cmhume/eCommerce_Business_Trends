@@ -1,7 +1,7 @@
 ## Elaine Ng:
 
 
-Intro:  Slides 2-5
+Intro:  Slides 3-5
 
 
 *   Selected topic
