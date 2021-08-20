@@ -6,7 +6,7 @@ Each segment should be around 2 minutes long, 300 words or one page double space
 ## Elaine:
 
 
-Intro:  Slides 1-5
+Intro:  Slides 2-5
 
 
 *   Selected topic
@@ -17,7 +17,7 @@ Intro:  Slides 1-5
 ## Luz:
 
 
-Dashboards: Slides 7, 10, Tableau Dashboards
+Dashboards: Slides 6-7, Tableau Dashboards
 
 
 *   Questions the team hopes to answer with the data
@@ -28,7 +28,7 @@ Dashboards: Slides 7, 10, Tableau Dashboards
 ## Manupriya:
 
 
-Machine Learning app: Slides 21-25
+Machine Learning app: Slides 1, 8-12
 
 *   Random Forest Machine Learning Model, features of importance
 *   How machine learning was used in review score prediction app
@@ -38,7 +38,7 @@ Machine Learning app: Slides 21-25
 ## Corinne:
 
 
-Conclusions, Q & A: Slides 26-28
+Conclusions, Q & A: Slides 13-16
 
 *   Recommendation for future analysis
 *   Anything the team would have done differently
