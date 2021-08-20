@@ -1,7 +1,7 @@
 ## Elaine:
 
 
-Intro:  Slides 1-5
+Intro:  Slides 2-5
 
 
 *   Selected topic
