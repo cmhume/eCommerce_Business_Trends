@@ -7,9 +7,9 @@ We will use SQL with pgAdmin4 to make the tables to display the buying trends fr
 
 ## Machine Learning
 We will be using Tensorflow and SciKitLearn for our machine learning. 
-- We will use Tensorflow to handle our huge set of data, build neural networks to make predictions, and to compare the accuracy of the trends based on the customer’s location and the products customers in that area tend to buy. 
+- We will use Tensorflow to handle our huge set of data, build neural networks to make predictions, and to compare the accuracy of the trends based on the customer’s location. 
 - We will use SciKitLearn to scale our data.
 
 
 ## Dashboard
-Later on, we are planning to use Tableau to make visualizations, such as bar graphs and heat maps of our data. Tableau can help make our charts interactive. All of these visualizations will be organized and hosted through a Tableau story. Doing this will make it easier for our audience to understand instead of having one big sheet with all of our visualizations mixed together. After making the story on Tableau, we will put it on Google Slides to present.
+Later on, we are planning to use Tableau to make visualizations, such as bar graphs and heat maps of our data. Tableau can help make our charts interactive. All of these visualizations will be organized and hosted through a Tableau story. Doing this will make it easier for our audience to understand instead of having one big sheet with all of our visualizations mixed together. After making the story on Tableau, we will put a link on Google Slides to present.
