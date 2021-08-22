@@ -308,3 +308,5 @@ Interactive elements:
 * line graphs that can be filtered by year 
 * Maps that can be filtered by customer review scores, product category,  and city
 
+## Conclusion
+From this analysis, we concluded that for our future analysis, we would hope to analyze the most recent orders with the orders we’ve analyzed from 2016-2018. With the more recent data, we would compare the olist orders with orders place on the other eCommerce platforms in Brazil. We would also like to compare the orders placed per region while also looking at the population, per capita income, access to online banking, and access to internet since about 20 million Brazilians do not have access to internet.
