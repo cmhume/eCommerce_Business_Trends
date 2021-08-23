@@ -5,16 +5,16 @@
 ### Group Members
 
 
-Elaine Ng - Peer reviews on code (Square role), Branches: [Elaine](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine), [technology.md](https://github.com/cmhume/eCommerce_Business_Trends/tree/technology.md), [Machine_Learning](https://github.com/cmhume/eCommerce_Business_Trends/tree/Machine_Learning), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/README.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3), [.gitignore](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/.gitignore), [requirements.txt](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/requirements.txt)
+Elaine Ng - Final updates to the README.md on the project repository & add a conclusion (Square role), Branches: [Elaine](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine), [technology.md](https://github.com/cmhume/eCommerce_Business_Trends/tree/technology.md), [Machine_Learning](https://github.com/cmhume/eCommerce_Business_Trends/tree/Machine_Learning), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/README.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3), [.gitignore](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/.gitignore), [requirements.txt](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/requirements.txt), [presentation_notes_Elaine](https://github.com/cmhume/eCommerce_Business_Trends/blob/presentation_notes/Presentation/presentation_notes_Elaine.md), [readme_wk4](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk4)
 
 
-Luz Maria Cabral - Dashboard (Circle role), Branches: [Luz](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Dashboard_Luz.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/Luz_dashboard_readme_wk3)
+Luz Maria Cabral - Ensure all applicable PRs are merged in (Circle role), Branches: [Luz](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Dashboard_Luz.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/Luz_dashboard_readme_wk3), [presentation_notes_Luz](https://github.com/cmhume/eCommerce_Business_Trends/blob/presentation_notes/Presentation/presentation_notes_Luz.md), [readme_wk4](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk4)
 
 
-Manupriya Sharma - Quality Assurance and test the code (X role), Branches: [Manupriya](https://github.com/cmhume/eCommerce_Business_Trends/tree/Manupriya), [Database](https://github.com/cmhume/eCommerce_Business_Trends/tree/Database), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Database_Manupriya.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/Manupriya_ML_readme_wk3)
+Manupriya Sharma -  Final touches on visual aspects of the presentation & dashboard (Triangle role), Branches: [Manupriya](https://github.com/cmhume/eCommerce_Business_Trends/tree/Manupriya), [Database](https://github.com/cmhume/eCommerce_Business_Trends/tree/Database), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Database_Manupriya.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/Manupriya_ML_readme_wk3), [presentation_notes_Manupriya](https://github.com/cmhume/eCommerce_Business_Trends/blob/presentation_notes/Presentation/presentation_notes_Manupriya.md), [readme_wk4](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk4)
 
 
-Corinne Hume - Draft presentation (Triangle role), Branches: [Corinne](https://github.com/cmhume/eCommerce_Business_Trends/tree/Corinne), [visuals_wk2](https://github.com/cmhume/eCommerce_Business_Trends/tree/visuals_wk2), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/edit/readme_wk2), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3), [presentation_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/presentation_wk3)
+Corinne Hume - Review the rubric & test the code (X role), Branches: [Corinne](https://github.com/cmhume/eCommerce_Business_Trends/tree/Corinne), [visuals_wk2](https://github.com/cmhume/eCommerce_Business_Trends/tree/visuals_wk2), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/edit/readme_wk2), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3), [presentation_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/presentation_wk3), [presentation_notes_Corinne](https://github.com/cmhume/eCommerce_Business_Trends/blob/presentation_notes/Presentation/presentation_notes_Corinne.md), [readme_wk4](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk4)
 
 
 ## Presentation
@@ -34,7 +34,7 @@ In this project, we will analyze customer orders placed between 2016-2018 from s
 
 **Why we selected our topic:** 
 
-We selected this topic because of the analysis options available from eCommerce data, with information available on customers, sellers, products and geographic regions.  We would like to know if consumer behavior differs between customer's geographic location and if future purchases could be predicted using geolocation data. We would also like to know what products are likely to be purchased depending on the time of year.  Our ultimate goal is to predict consumer behavior from this dataset using machine learning.
+We chose this topic because this dataset has a range of information and analysis options available from eCommerce data and the potential it has to make predictions with machine learning models, with the information available on customers, sellers, products and geographic regions. This dataset also gave us the opportunity to use SQL joins to create new tables where we joined it on a PostgreSQL server. Our ultimate goal is to predict consumer behavior and review score from this dataset by using machine learning.
 
 **Description of our source of data:**
 
@@ -246,9 +246,7 @@ As our target variable is binary, we choose a classification model.  We created 
 
 3. Decision Tree: We got accuracy of ~92%. Decision Tree algorithm is very intuitive and easy to understand but a small change in the data can change the prediction big time. 
 
-4. Ensemble-Random Forest: As this combines various decision tree models, it gave us the best value of accuracy of 98% . The Random Forest doesn’t over fit the model but it makes algorithms to run slow. 
-
-![confusion_matrix](https://user-images.githubusercontent.com/79742633/130381423-99ac65bc-3c8e-4eaa-b1fb-4503ee7b461d.png)
+4. Ensemble-Random Forest: As this combines various decision tree models, it gave us the best value of accuracy of 94% . The Random Forest doesn’t over fit the model but it makes algorithms to run slow. 
 
 5. Artificial Neural Network: We were hoping to get the highest accuracy with this one but it gave us accuracy of 50%. ANN can overfit the data and takes a lot of time to run.  
 Here is a graph that shows the comparison of all the models we tested:
@@ -275,6 +273,7 @@ Link to dashboard on [Google Slides](https://docs.google.com/presentation/d/123g
 
 [Link to video of dashboard interactivity](https://drive.google.com/file/d/1j4lY__ZRvh5D1mSSov30nQ8UTuH0VBjq/view?usp=sharing)
 
+[Link to Dashboard on Tableau](https://public.tableau.com/app/profile/luz.maria4458/viz/shared/RBMZK9XTD)
 
 This report starts by telling the story of Olist, how they began, where there customers are at, what products sell the most and 
 ways to improve their services. Olist is a company that begins its online presence in the Fall of 2016 and builds a robust presence 
@@ -310,3 +309,5 @@ Interactive elements:
 * line graphs that can be filtered by year 
 * Maps that can be filtered by customer review scores, product category,  and city
 
+## Conclusion
+From this analysis, we concluded that for our future analysis, we would hope to analyze the most recent orders with the orders we’ve analyzed from 2016-2018. With the more recent data, we would compare the olist orders with orders place on the other eCommerce platforms in Brazil. We would also like to compare the orders placed per region while also looking at the population, per capita income, access to online banking, and access to internet since about 20 million Brazilians do not have access to internet.
