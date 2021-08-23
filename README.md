@@ -19,6 +19,7 @@ Corinne Hume - Review the rubric & test the code (X role), Branches: [Corinne](h
 
 ## Presentation
 
+**Speaker notes from presentation are in the "Presentation" folder**
 
 Link to [Google Slides](https://docs.google.com/presentation/d/123g32q7Y1Ol1Q0KDGNYB0UI2wL3trsAx_ia_VTf3Q0E/edit?usp=sharing)
 
@@ -45,9 +46,9 @@ We chose the [Brazilian-eCommerce](https://www.kaggle.com/olistbr/brazilian-ecom
 **Questions we hope to answer with our data:**
 
 With this data, we hope to answer...
-- What is the ordering behavior for consumers in each geographical region?
-- What type of products would a company expect to buy more of depending on the season?
-- Analyse reviews and develop predictive model based on the given parameters. 
+- What are business trends like for Olist, in general?
+- What data features impact review scores the most?
+- Can we predict review scores using machine learning?
 
 
 ## Database
@@ -155,7 +156,7 @@ We used the following methods to encode the catagorical variables:
 
 - lambda function
 - label encoder
-- 
+
 <img width="416" alt="feature engineering1" src="https://user-images.githubusercontent.com/69255270/128648449-1c0cfb08-ee1b-4c62-a8bf-4f86a8a4875c.png">
 <img width="423" alt="Feature engineering 2" src="https://user-images.githubusercontent.com/69255270/128648452-70e8facd-0a78-47fa-9e4b-453765c0a0aa.png">
 
@@ -211,7 +212,7 @@ We used pandas to read in the SQL database to jupyter notebook.  We used the fin
 <img width="629" alt="SQL_todb" src="https://user-images.githubusercontent.com/69255270/128648778-1650ad90-d6b8-4676-bba9-5d850da1c7b2.png">
 
 ## Machine Learning:
-[Link to Machine Learning jupyter notebook](https://github.com/cmhume/eCommerce_Business_Trends/blob/f8f44e6809cccd2e409a8839d7495d894fcb530e/Machine_Learning/ecommerce_business_trend_ML_feature_importance.ipynb)
+[Link to Machine Learning jupyter notebook](https://github.com/cmhume/eCommerce_Business_Trends/blob/main/Machine_Learning/final_machine_learning.ipynb)
 
 #### Goal: To create a Machine Learning model to predict review score. We converted review score to binary variable by using the following code:
 
@@ -233,14 +234,15 @@ Our data has more positive reviews than negative reviews, as the pie chart below
 
 <img width="144" alt="pie chart" src="https://user-images.githubusercontent.com/69255270/129483263-840225aa-a0a3-4e26-89c7-e3373dc3fba9.png">
 
-We used Random undersampling to resample our data  using the follwoing code:
+We used Random undersampling to resample our data using the following code:
 
 <img width="363" alt="resample" src="https://user-images.githubusercontent.com/69255270/129484445-eb68ff20-47a8-493c-89d6-ee92954d699f.png">
 
 **Model Choice:**
 
-As our target variable is binary, we choose a classification model.  We created 5 different models and compared their accuracies. We got accuracy >70% for all the models except for Artificial Neural Network that gave us only 50% of accuracy. Random forest performed the best for our data:
+As our target variable is binary, we choose a classification model.  We created 5 different models and compared their accuracies. We got accuracy >70% for all the models except for Artificial Neural Network that gave us only 50% of accuracy. Random forest performed the best for our data and we used this model for our web app.
 
+**Summary of Machine Learning Models Performance**
 
 1.	Linear Logistic Regression: We got accuracy of 74%. Logistic regression is easier to implement and interpret, and very efficient to train. But it is tough to obtain complex relationships using logistic regression and it over fits the model.
 
@@ -249,7 +251,7 @@ As our target variable is binary, we choose a classification model.  We created 
 
 3. Decision Tree: We got accuracy of ~92%. Decision Tree algorithm is very intuitive and easy to understand but a small change in the data can change the prediction big time. 
 
-4. Ensemble-Random Forest: As this combines various decision tree models, it gave us the best value of accuracy of 98% . The Random Forest doesn’t over fit the model but it makes algorithms to run slow. 
+4. Ensemble-Random Forest: As this combines various decision tree models, it gave us the best value of accuracy of ~98% . The Random Forest doesn’t over fit the model but it makes algorithms to run slow. 
 
 ![confusion_matrix](https://user-images.githubusercontent.com/79742633/130381423-99ac65bc-3c8e-4eaa-b1fb-4503ee7b461d.png)
 
@@ -260,7 +262,7 @@ Here is a graph that shows the comparison of all the models we tested:
 
 
 ## Feature Importance
-We used Random Forest feature importance technique (as Random Forest has the maximum accuracy ~94% among the all models we tried to find importance score to input features based on how useful they are at predicting a target variable. As the picture below shows that the most important feature is the "time estimate to delivery" which is the differnce between estimate delivery date and actual delivery date and the least important feature is the "order status".
+We used Random Forest feature importance technique (as Random Forest has the maximum accuracy ~98% among all the models, we tried to find importance score for input features based on how useful they are at predicting a target variable). As the picture below shows, the most important feature is the "time estimate to delivery" which is the difference between estimate delivery date and actual delivery date and the least important feature is the "order status."
 
 <img width="380" alt="feature importance" src="https://user-images.githubusercontent.com/69255270/129485131-f4993795-1415-4ad0-a46b-4970b943e91e.png">
 
@@ -314,7 +316,7 @@ as well. The logistics might be different. For this reason we also reviewed frei
 Interactive elements:
 
 * line graphs that can be filtered by year 
-* Maps that can be filtered by customer review scores, product category,  and city
+* Maps that can be filtered by customer review scores, product category, and city
 
 ## Conclusion
 From this analysis, we concluded that for our future analysis, we would hope to analyze the most recent orders with the orders we’ve analyzed from 2016-2018. With the more recent data, we would compare the olist orders with orders place on the other eCommerce platforms in Brazil. We would also like to compare the orders placed per region while also looking at the population, per capita income, access to online banking, and access to internet since about 20 million Brazilians do not have access to internet.
