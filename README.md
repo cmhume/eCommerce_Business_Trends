@@ -246,7 +246,9 @@ As our target variable is binary, we choose a classification model.  We created 
 
 3. Decision Tree: We got accuracy of ~92%. Decision Tree algorithm is very intuitive and easy to understand but a small change in the data can change the prediction big time. 
 
-4. Ensemble-Random Forest: As this combines various decision tree models, it gave us the best value of accuracy of 94% . The Random Forest doesn’t over fit the model but it makes algorithms to run slow. 
+4. Ensemble-Random Forest: As this combines various decision tree models, it gave us the best value of accuracy of 98% . The Random Forest doesn’t over fit the model but it makes algorithms to run slow. 
+
+![confusion_matrix](https://user-images.githubusercontent.com/79742633/130381423-99ac65bc-3c8e-4eaa-b1fb-4503ee7b461d.png)
 
 5. Artificial Neural Network: We were hoping to get the highest accuracy with this one but it gave us accuracy of 50%. ANN can overfit the data and takes a lot of time to run.  
 Here is a graph that shows the comparison of all the models we tested:
