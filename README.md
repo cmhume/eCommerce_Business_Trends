@@ -273,6 +273,7 @@ Link to dashboard on [Google Slides](https://docs.google.com/presentation/d/123g
 
 [Link to video of dashboard interactivity](https://drive.google.com/file/d/1j4lY__ZRvh5D1mSSov30nQ8UTuH0VBjq/view?usp=sharing)
 
+[Link to Dashboard on Tableau](https://public.tableau.com/app/profile/luz.maria4458/viz/shared/RBMZK9XTD)
 
 This report starts by telling the story of Olist, how they began, where there customers are at, what products sell the most and 
 ways to improve their services. Olist is a company that begins its online presence in the Fall of 2016 and builds a robust presence 
