@@ -264,6 +264,8 @@ We used Random Forest feature importance technique (as Random Forest has the max
 ## Predictive Web App
 We used Streamlit to create an interactive web app to predict the review score for various combinations of the features. We used Random Forest classifier model to create the prediction. 
 
+[Link to Predictive Web App](https://finall-project.herokuapp.com/)
+
 <img width="416" alt="Predictive App" src="https://user-images.githubusercontent.com/69255270/129506869-b2713b22-6a5d-4df3-8af1-07ab9be5bf9f.png">
  
 
