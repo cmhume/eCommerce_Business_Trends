@@ -76,6 +76,9 @@ The description of these tables is as follows:
 We cleaned all these tables using Jupyter Notebook and imported them to a postgresSQL 11 server for joining the tables to create one big database to further analyze. 
 SQL inner joins were used to connect all the tables. 
 
+[Link to Data_Cleaning Jupyter Notebook](https://github.com/cmhume/eCommerce_Business_Trends/blob/main/Database/Data_Cleaning_Notebooks/Database_cleaning.ipynb)
+
+[Link to Schema](https://github.com/cmhume/eCommerce_Business_Trends/blob/main/Database/Schema/Schema.sql)
 
 <img width="590" alt="SQL" src="https://user-images.githubusercontent.com/69255270/128648004-910c37f3-e5bb-44ba-bfbc-8820744e1d79.png">
 
