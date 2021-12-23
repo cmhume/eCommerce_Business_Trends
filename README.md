@@ -32,10 +32,6 @@ Link to [Google Slides](https://docs.google.com/presentation/d/123g32q7Y1Ol1Q0KD
 In this project, we will analyze customer orders placed between 2016-2018 from sellers on the Brazilian eCommerce platform [Olist Store](https://olist.com/).  From this data, we will first determine the number of customers by geographic region (looking at zip code prefix, city, and state), most popular products, number of repeat customers and purchases, and total purchases by date. After data cleaning and initial analysis, we will use machine learning to make predictions on customer behavior, providing sellers on Olist the opportunity to increase sales and their customer base.
 
 
-**Why we selected our topic:** 
-
-We chose this topic because this dataset has a range of information and analysis options available from eCommerce data and the potential it has to make predictions with machine learning models, with the information available on customers, sellers, products and geographic regions. This dataset also gave us the opportunity to use SQL joins to create new tables where we joined it on a PostgreSQL server. Our ultimate goal is to predict consumer behavior and review score from this dataset by using machine learning.
-
 **Description of our source of data:**
 
 We chose the [Brazilian-eCommerce](https://www.kaggle.com/olistbr/brazilian-ecommerce) dataset from Kaggle for our analysis.  This dataset contains approximately 100,000 customer orders, along with corresponding files on product information and English translations of product categories originally in Portuguese. Seller names in this dataset were anonymized and replaced with Game of Thrones House names.  Six files from the original Kaggle dataset were chosen for further analysis: geolocation dataset, olist_customers_dataset, olist_product_dataset, order_item_dataset, olist_orders_dataset, and product_category_name_translation. 
@@ -134,7 +130,7 @@ We confirmed our results by creating a correlation matrix:
 <img width="449" alt="corelation_matrix" src="https://user-images.githubusercontent.com/69255270/128648339-d6a96522-5313-4f21-8970-263fec15bf38.png">
 
 
-Finally, we decided to keeping the following columns in our data:
+After looking at the correlation matrix, we decided to keeping the following columns in our data:
 
 - zipcode	order_status
 - price	freight_value	review_score	
@@ -283,32 +279,21 @@ Link to dashboard on [Google Slides](https://docs.google.com/presentation/d/123g
 
 [Link to Dashboard on Tableau](https://public.tableau.com/app/profile/luz.maria4458/viz/shared/RBMZK9XTD)
 
-This report starts by telling the story of Olist, how they began, where there customers are at, what products sell the most and 
-ways to improve their services. Olist is a company that begins its online presence in the Fall of 2016 and builds a robust presence 
-in 2017 and 2018. We review the products that they help distribute and how they're performing around the country. As part of their 
-quality control review they send out surveys for feedback on their services, we were able to use their star rating to see how customers
-felt about the services provided. Finally part of the service Olist provides is logistics and delivery is largely discussed in these
-reviews, we attempt to draw this picture in our visualizations.
 
 ## Visualization Tools
-The team decided to move forward with Tableau for our dashboard needs. The data, as previously described, was cleaned, merged and 
-further processed via Python, postgresSQL, and AWS. The dataset that we've been working with include some of the changes made for 
-the machine learning models, changing strings into integers. Also, in assistance to our Tableau learning journey, aside from the 
-module, were youtube videos for guidance on connecting worksheets for interactive connections and overlapping maps to demonstrate
-the data. 
+We used Tableau to create dashboards showing sales by product category and customer review scores by product category.   
+
 
 ## Sales Dashboard
 ![Olist Sales Review](https://user-images.githubusercontent.com/79742633/129506408-da6dab4b-1c0f-4544-a715-e004e2b8b4c5.png)
 
-In this board we see the popularity of items being sold on Olist, most popular item are home goods and least popular are security
-services. We used cluster or bubble chart to review this and a map to locate places where these items were sold most frequently. 
+
+The sales dashboard shows the total number of sales of items in each each product category. 
+
 
 ## Review Dashboard
 ![Review_Dashboard](Dashboard/Category_Review_Dashboard.png)
-The next dashboard illustrates the reviews and how most categories were rated. Overall Olist provides a good service with most 
-items receiving reviews of 3.5 and greater. There are negative reviews and there will be seen in areas where delivering large ticket
-items may not be as easy as delivering smaller items. Most of our machine learning visualizations and results are located in this frame
-as well. The logistics might be different. For this reason we also reviewed freight costs and services. 
+The review dashboard illustrates the average customer review scores by product category. 
 
 
 Interactive elements:
