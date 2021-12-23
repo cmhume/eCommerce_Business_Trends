@@ -34,7 +34,7 @@ In this project, we will analyze customer orders placed between 2016-2018 from s
 
 **Description of our source of data:**
 
-We chose the [Brazilian-eCommerce](https://www.kaggle.com/olistbr/brazilian-ecommerce) dataset from Kaggle for our analysis.  This dataset contains approximately 100,000 customer orders, along with corresponding files on product information and English translations of product categories originally in Portuguese. Seller names in this dataset were anonymized and replaced with Game of Thrones House names.  Six files from the original Kaggle dataset were chosen for further analysis: geolocation dataset, olist_customers_dataset, olist_product_dataset, order_item_dataset, olist_orders_dataset, and product_category_name_translation. 
+We chose the [Brazilian-eCommerce](https://www.kaggle.com/olistbr/brazilian-ecommerce) dataset from Kaggle for our analysis.  This dataset contains approximately 100,000 customer orders, along with corresponding files on product information and English translations of product categories originally in Portuguese. Seller names in this dataset were anonymized and replaced with Game of Thrones House names.  Nine files from the original Kaggle dataset were chosen for further analysis: olist_geolocation_dataset, olist_customers_dataset, olist_sellers_dataset, olist_product_dataset, olist_order_items_dataset, olist_orders_dataset, olist_order_payments_dataset, olist_order_reviews_dataset and product_category_name_translation. 
 
 *_Data Source: https://www.kaggle.com/olistbr/brazilian-ecommerce_*
 
