@@ -288,17 +288,17 @@ We used Tableau to create dashboards showing sales by product category and custo
 ![Olist Sales Review](https://user-images.githubusercontent.com/79742633/129506408-da6dab4b-1c0f-4544-a715-e004e2b8b4c5.png)
 
 
-The sales dashboard shows the total number of sales of items in each each product category. 
+The sales dashboard shows the most popular and least popular product categories overall, by geographic region, and by date. 
 
 
 ## Review Dashboard
 ![Review_Dashboard](Dashboard/Category_Review_Dashboard.png)
-The review dashboard illustrates the average customer review scores by product category. 
+The review dashboard illustrates the average customer review scores by product category and State. 
 
 
 Interactive elements:
 
-* line graphs that can be filtered by year 
+* Graphs that can be filtered by year 
 * Maps that can be filtered by customer review scores, product category, and city
 
 
