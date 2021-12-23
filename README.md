@@ -69,8 +69,8 @@ The description of these tables is as follows:
 9) olist_product_category_name_translation: This table is connected to products database. 
 
 
-We cleaned all these tables using Jupyter Notebook and imported them to a postgresSQL 11 server for joining the tables to create one big database to further analyze. 
-SQL inner joins were used to connect all the tables. 
+Individual datasets were cleaned using Pandas in a Python3 Jupyter Notebook before importing the data tables to a postgresSQL server.   
+SQL inner joins were used to connect all nine data tables for our machine learning model. 
 
 [Link to Data_Cleaning Jupyter Notebook](https://github.com/cmhume/eCommerce_Business_Trends/blob/main/Database/Data_Cleaning_Notebooks/Database_cleaning.ipynb)
 
