@@ -49,7 +49,7 @@ With this data, we hope to answer...
 ## Database
 
 
-We used Postgres to create tables in SQL. The ERD below shows connectivity among 9 tables. 
+We used Postgres to create data tables in SQL. The Entity Relationship Diagram(ERD) below shows the connectivity between the 9 data tables used in our analysis. 
 
 
 ![QuickDBD-export (1)](https://user-images.githubusercontent.com/79742633/129489813-9152f9d2-ec14-4ce4-8965-bfbfe5d3ca45.png)
