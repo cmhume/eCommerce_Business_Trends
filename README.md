@@ -4,17 +4,16 @@
 
 ### Group Members
 
-
-Elaine Ng - Final updates to the README.md on the project repository & add a conclusion (Square role), Branches: [Elaine](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine), [technology.md](https://github.com/cmhume/eCommerce_Business_Trends/tree/technology.md), [Machine_Learning](https://github.com/cmhume/eCommerce_Business_Trends/tree/Machine_Learning), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/README.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3), [.gitignore](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/.gitignore), [requirements.txt](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/requirements.txt), [presentation_notes_Elaine](https://github.com/cmhume/eCommerce_Business_Trends/blob/presentation_notes/Presentation/presentation_notes_Elaine.md), [readme_wk4](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk4)
-
-
-Luz Maria Cabral - Ensure all applicable PRs are merged in (Circle role), Branches: [Luz](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Dashboard_Luz.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/Luz_dashboard_readme_wk3), [presentation_notes_Luz](https://github.com/cmhume/eCommerce_Business_Trends/blob/presentation_notes/Presentation/presentation_notes_Luz.md), [readme_wk4](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk4)
+Corinne Hume - Branches: [Corinne](https://github.com/cmhume/eCommerce_Business_Trends/tree/Corinne), [visuals_wk2](https://github.com/cmhume/eCommerce_Business_Trends/tree/visuals_wk2), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/edit/readme_wk2), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3), [presentation_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/presentation_wk3), [presentation_notes_Corinne](https://github.com/cmhume/eCommerce_Business_Trends/blob/presentation_notes/Presentation/presentation_notes_Corinne.md), [readme_wk4](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk4)
 
 
-Manupriya Sharma -  Final touches on visual aspects of the presentation & dashboard (Triangle role), Branches: [Manupriya](https://github.com/cmhume/eCommerce_Business_Trends/tree/Manupriya), [Database](https://github.com/cmhume/eCommerce_Business_Trends/tree/Database), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Database_Manupriya.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/Manupriya_ML_readme_wk3), [presentation_notes_Manupriya](https://github.com/cmhume/eCommerce_Business_Trends/blob/presentation_notes/Presentation/presentation_notes_Manupriya.md), [readme_wk4](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk4)
+Elaine Ng - Branches: [Elaine](https://github.com/cmhume/eCommerce_Business_Trends/tree/Elaine), [technology.md](https://github.com/cmhume/eCommerce_Business_Trends/tree/technology.md), [Machine_Learning](https://github.com/cmhume/eCommerce_Business_Trends/tree/Machine_Learning), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/README.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3), [.gitignore](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/.gitignore), [requirements.txt](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/requirements.txt), [presentation_notes_Elaine](https://github.com/cmhume/eCommerce_Business_Trends/blob/presentation_notes/Presentation/presentation_notes_Elaine.md), [readme_wk4](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk4)
 
 
-Corinne Hume - Review the rubric & test the code (X role), Branches: [Corinne](https://github.com/cmhume/eCommerce_Business_Trends/tree/Corinne), [visuals_wk2](https://github.com/cmhume/eCommerce_Business_Trends/tree/visuals_wk2), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/edit/readme_wk2), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk3), [presentation_wk3](https://github.com/cmhume/eCommerce_Business_Trends/tree/presentation_wk3), [presentation_notes_Corinne](https://github.com/cmhume/eCommerce_Business_Trends/blob/presentation_notes/Presentation/presentation_notes_Corinne.md), [readme_wk4](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk4)
+Luz Maria Cabral - Branches: [Luz](https://github.com/cmhume/eCommerce_Business_Trends/tree/Luz), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Dashboard_Luz.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/Luz_dashboard_readme_wk3), [presentation_notes_Luz](https://github.com/cmhume/eCommerce_Business_Trends/blob/presentation_notes/Presentation/presentation_notes_Luz.md), [readme_wk4](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk4)
+
+
+Manupriya Sharma - Branches: [Manupriya](https://github.com/cmhume/eCommerce_Business_Trends/tree/Manupriya), [Database](https://github.com/cmhume/eCommerce_Business_Trends/tree/Database), [readme_wk2](https://github.com/cmhume/eCommerce_Business_Trends/blob/dbb9a857e30dd3be375ff0cc25c391f09c8242df/Database_Manupriya.md), [readme_wk3](https://github.com/cmhume/eCommerce_Business_Trends/blob/readme_wk3/Manupriya_ML_readme_wk3), [presentation_notes_Manupriya](https://github.com/cmhume/eCommerce_Business_Trends/blob/presentation_notes/Presentation/presentation_notes_Manupriya.md), [readme_wk4](https://github.com/cmhume/eCommerce_Business_Trends/tree/readme_wk4)
 
 
 ## Presentation
@@ -312,11 +311,9 @@ items may not be as easy as delivering smaller items. Most of our machine learni
 as well. The logistics might be different. For this reason we also reviewed freight costs and services. 
 
 
-
 Interactive elements:
 
 * line graphs that can be filtered by year 
 * Maps that can be filtered by customer review scores, product category, and city
 
-## Conclusion
-From this analysis, we concluded that for our future analysis, we would hope to analyze the most recent orders with the orders we’ve analyzed from 2016-2018. With the more recent data, we would compare the olist orders with orders place on the other eCommerce platforms in Brazil. We would also like to compare the orders placed per region while also looking at the population, per capita income, access to online banking, and access to internet since about 20 million Brazilians do not have access to internet.
+
